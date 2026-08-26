@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as follows."
+title: "Customer Experience Analytics and Pipeline"
+type: software
+authors:
+  - family-names: "Almeida"
+    given-names: "Karina Oliveira Belarmino de"
+year: 2026
+license: MIT
+repository-code: "https://github.com/karinabelarmino/customer-experience-analytics-pipeline"
+abstract: "A synthetic and public portfolio project on API ingestion, validation, incremental loading and analytical data delivery."
