@@ -108,7 +108,7 @@ This repository is primarily a technical project, but its analytical choices wer
     <td valign="top">
       This book offers a complementary operational perspective. Memorable experiences are not produced only through individual friendliness or spontaneous gestures: they depend on intentionally designed service standards, processes and attention to detail.
       <br><br>
-      This perspective helped frame customer experience as something built across multiple touchpoints—not merely measured through a survey at the end of the journey.
+      This perspective helped frame customer experience as something built across multiple touchpoints, not merely measured through a survey at the end of the journey.
       <br><br>
       <a href="https://www.amazon.com.br/dp/6558101246">View the Portuguese edition</a>
     </td>
