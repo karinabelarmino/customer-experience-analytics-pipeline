@@ -1,0 +1,34 @@
+{
+  "analytical_rows": 4315,
+  "as_of": "2025-09-30T23:59:59Z",
+  "committed_watermark": "2025-09-30T23:37:00Z",
+  "elapsed_seconds": 0.734,
+  "exercise": "01_full_vs_incremental_load",
+  "extracted_rows": 4573,
+  "full_scan_rows_at_cutoff": 4573,
+  "mode": "full",
+  "outputs": {
+    "bronze": "runtime\\bronze\\20260826T223715647981Z\\responses.jsonl",
+    "gold_csv": "data/gold/customer_experience_responses.csv",
+    "quarantine": "runtime\\quarantine\\20260826T223715647981Z\\responses.jsonl",
+    "silver": "runtime\\silver\\20260826T223715647981Z\\responses.jsonl",
+    "sqlite": "runtime\\customer_experience.db"
+  },
+  "pages_requested": 19,
+  "previous_watermark": null,
+  "query_watermark": null,
+  "read_reduction_pct": 0.0,
+  "rows_avoided_vs_full_scan": 0,
+  "run_id": "20260826T223715647981Z",
+  "upsert": {
+    "inserted": 4315,
+    "replayed_or_unchanged": 0,
+    "updated": 0
+  },
+  "validation": {
+    "extracted_rows": 4573,
+    "quarantined_rows": 18,
+    "superseded_or_replayed_rows_in_batch": 240,
+    "valid_latest_rows_in_batch": 4315
+  }
+}
