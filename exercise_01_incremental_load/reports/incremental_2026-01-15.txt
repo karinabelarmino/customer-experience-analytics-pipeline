@@ -1,0 +1,22 @@
+EXERCISE 01 - INCREMENTAL LOAD
+Run ID: 20260827T031624435827Z
+
+Stage      | Metric                        | Value               
+-----------+-------------------------------+---------------------
+Run        | Load mode                     | incremental         
+Run        | Source cutoff                 | 2026-01-15T23:59:59Z
+Extraction | API pages requested           | 8                   
+Extraction | Rows available in a full scan | 6365                
+Extraction | Rows actually extracted       | 1793                
+Extraction | Rows avoided                  | 4572                
+Extraction | Read reduction                | 71.8%               
+State      | Previous watermark            | 2025-09-30T23:37:00Z
+State      | Query watermark               | 2025-09-30T23:32:00Z
+State      | Committed watermark           | 2026-01-15T13:46:00Z
+Validation | Valid latest versions         | 1699                
+Validation | Superseded or replayed        | 87                  
+Validation | Sent to quarantine            | 7                   
+Upsert     | Inserted                      | 1685                
+Upsert     | Updated                       | 13                  
+Upsert     | Replayed or unchanged         | 1                   
+Output     | Final Gold rows               | 6000                

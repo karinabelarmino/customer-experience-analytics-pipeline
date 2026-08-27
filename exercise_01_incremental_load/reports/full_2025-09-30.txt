@@ -1,0 +1,22 @@
+EXERCISE 01 - FULL LOAD
+Run ID: 20260827T031624279085Z
+
+Stage      | Metric                        | Value               
+-----------+-------------------------------+---------------------
+Run        | Load mode                     | full                
+Run        | Source cutoff                 | 2025-09-30T23:59:59Z
+Extraction | API pages requested           | 19                  
+Extraction | Rows available in a full scan | 4573                
+Extraction | Rows actually extracted       | 4573                
+Extraction | Rows avoided                  | 0                   
+Extraction | Read reduction                | 0.0%                
+State      | Previous watermark            | None                
+State      | Query watermark               | None                
+State      | Committed watermark           | 2025-09-30T23:37:00Z
+Validation | Valid latest versions         | 4315                
+Validation | Superseded or replayed        | 240                 
+Validation | Sent to quarantine            | 18                  
+Upsert     | Inserted                      | 4315                
+Upsert     | Updated                       | 0                   
+Upsert     | Replayed or unchanged         | 0                   
+Output     | Final Gold rows               | 4315                
