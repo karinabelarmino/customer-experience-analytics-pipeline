@@ -8,13 +8,14 @@ The repository will be released as a sequence of exercises.
 
 ## 🚀 Exercise releases
 
-| Exercise | Scope | Main output | Status |
-| :---: | --- | --- | :---: |
-| **01** | Full load versus incremental API load | Validated and incrementally updated analytical table | Planned |
-| **02** | Response grain, repeated events and deduplication | Documented grain and version-resolution rules | Planned |
-| **03** | NPS and CSAT across the customer journey | Reproducible customer-experience indicators | Planned |
-| **04** | Claims ratio and outlier treatment | Robust analytical comparison | Planned |
-| **05** | Analytical model for Power BI | Dashboard-ready Gold layer | Planned |
+|                     Exercise                     | Scope                                             | Main output                                          |    Status    |
+| :----------------------------------------------: | ------------------------------------------------- | ---------------------------------------------------- | :----------: |
+| [**01**](exercise_01_incremental_load/README.md) | Full load versus incremental API load             | Validated and incrementally updated analytical table | **Released** |
+|                      **02**                      | Response grain, repeated events and deduplication | Documented grain and version-resolution rules        |    Planned   |
+|                      **03**                      | NPS and CSAT across the customer journey          | Reproducible customer-experience indicators          |    Planned   |
+|                      **04**                      | Claims ratio and outlier treatment                | Robust analytical comparison                         |    Planned   |
+|                      **05**                      | Analytical model for Power BI                     | Dashboard-ready Gold layer                           |    Planned   |
+
 
 ### How the data were obtained and validated
 
