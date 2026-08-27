@@ -1,3 +1,0 @@
-mode,as_of,full_scan_rows,rows_read,rows_avoided,read_reduction_pct,analytical_rows
-full,2025-09-30T23:59:59Z,4573,4573,0,0.0,4315
-incremental,2026-01-15T23:59:59Z,6365,1793,4572,71.8,6000
