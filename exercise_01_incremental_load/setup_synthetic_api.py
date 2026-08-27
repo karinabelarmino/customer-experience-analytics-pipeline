@@ -34,9 +34,9 @@ CATEGORIES = {
     "renewal": ("value", "relationship"),
 }
 
+# 1. BUILD THE SYNTHETIC SOURCE ----------------------------------------------
 
 def iso_timestamp(value: datetime) -> str:
-    """Return a UTC timestamp in the format used by the simulated API."""
     return (
         value.astimezone(timezone.utc)
         .replace(microsecond=0)
@@ -46,7 +46,6 @@ def iso_timestamp(value: datetime) -> str:
 
 
 def parse_timestamp(value: str) -> datetime:
-    """Parse an ISO-formatted timestamp and normalize it to UTC."""
     return datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(timezone.utc)
 
 
@@ -57,13 +56,12 @@ def bounded_score(
     lower_bound: int,
     upper_bound: int,
 ) -> int:
-    """Draw a rounded score and keep it within the scale boundaries."""
     score = int(round(generator.gauss(mean, standard_deviation)))
     return max(lower_bound, min(upper_bound, score))
 
 
 def generate_responses(count: int = 6000, seed: int = 20260826) -> list[dict]:
-    """Create deterministic responses, revisions and intentionally invalid events."""
+    """Create 6,000 responses plus revisions and validation errors."""
     generator = random.Random(seed)
     start = datetime(2025, 1, 1, 8, 0, tzinfo=timezone.utc)
     score_profiles = {
@@ -141,7 +139,6 @@ def generate_responses(count: int = 6000, seed: int = 20260826) -> list[dict]:
 
 
 def write_source(path: Path, force: bool = False) -> int:
-    """Write the synthetic source once and return the number of source events."""
     if path.exists() and not force:
         with path.open("r", encoding="utf-8") as source_file:
             return sum(1 for line in source_file if line.strip())
@@ -157,13 +154,12 @@ def write_source(path: Path, force: bool = False) -> int:
 
 
 def load_source(path: Path) -> list[dict]:
-    """Read the JSON Lines file used by the simulated API."""
     with path.open("r", encoding="utf-8") as source_file:
         return [json.loads(line) for line in source_file if line.strip()]
 
+# 2. SERVE THE SOURCE THROUGH A PAGINATED API --------------------------------
 
 def build_handler(events: list[dict], token: str) -> type[BaseHTTPRequestHandler]:
-    """Create an HTTP handler bound to a fixed synthetic dataset and token."""
 
     class SyntheticAPIHandler(BaseHTTPRequestHandler):
         def log_message(self, format: str, *args) -> None:
@@ -235,13 +231,11 @@ def create_server(
     port: int = DEFAULT_PORT,
     token: str = API_TOKEN,
 ) -> ThreadingHTTPServer:
-    """Build the threaded HTTP server without starting its event loop."""
     handler = build_handler(load_source(source_path), token)
     return ThreadingHTTPServer((host, port), handler)
 
 
 def api_is_ready(base_url: str) -> bool:
-    """Return whether the simulated API already responds on the selected port."""
     try:
         with urlopen(f"{base_url}/health", timeout=1) as response:
             return response.status == 200
@@ -250,7 +244,6 @@ def api_is_ready(base_url: str) -> bool:
 
 
 def wait_for_api(base_url: str, attempts: int = 40) -> None:
-    """Wait briefly for the background API thread to become available."""
     for _ in range(attempts):
         if api_is_ready(base_url):
             return
@@ -264,7 +257,6 @@ def start_api_in_background(
     port: int = DEFAULT_PORT,
     token: str = API_TOKEN,
 ) -> ThreadingHTTPServer | None:
-    """Start the API in a daemon thread, unless it is already running."""
     base_url = f"http://{host}:{port}"
     if api_is_ready(base_url):
         return None
@@ -275,9 +267,9 @@ def start_api_in_background(
     wait_for_api(base_url)
     return server
 
+# 3. START LOCALLY OR INSIDE DATABRICKS --------------------------------------
 
 def local_source_path() -> Path:
-    """Return the repository-relative source path used outside Databricks."""
     return Path(__file__).resolve().parent / "data" / "source" / "responses.jsonl"
 
 
@@ -298,8 +290,8 @@ def run_locally() -> None:
     args = parse_arguments()
     source_rows = write_source(args.source, force=args.force)
 
-    print("This output shows where the synthetic source was created and how many events it contains.")
-    print(json.dumps({"source": str(args.source), "events": source_rows}, indent=2))
+    print(f"Synthetic source ready: {source_rows:,} events")
+    print(f"Source file: {args.source}")
 
     if args.generate_only:
         return
@@ -310,18 +302,21 @@ def run_locally() -> None:
         port=args.port,
         token=args.token,
     )
-    print("This output shows the local endpoint used by Exercise 1. Press Ctrl+C to stop it.")
-    print(f"http://{args.host}:{args.port}/v1/responses")
+    print(f"API listening at http://{args.host}:{args.port}/v1/responses")
+    print("Keep this terminal open. Press Ctrl+C to stop the API.")
     try:
         server.serve_forever()
     except KeyboardInterrupt:
-        print("This output confirms that the synthetic API was stopped.")
         print("Synthetic API stopped.")
     finally:
         server.server_close()
 
 
-IN_DATABRICKS = bool(os.environ.get("DATABRICKS_RUNTIME_VERSION"))
+IN_DATABRICKS = bool(
+    os.environ.get("DATABRICKS_RUNTIME_VERSION")
+    or os.environ.get("DATABRICKS_SERVERLESS_ENV")
+    or ("spark" in globals() and "dbutils" in globals())
+)
 
 if IN_DATABRICKS:
     SYNTHETIC_API_BASE_URL = f"http://{DEFAULT_HOST}:{DEFAULT_PORT}"
@@ -332,15 +327,9 @@ if IN_DATABRICKS:
     SYNTHETIC_SOURCE_ROWS = write_source(SYNTHETIC_SOURCE_PATH)
     SYNTHETIC_API_SERVER = start_api_in_background(SYNTHETIC_SOURCE_PATH)
 
-    print("This output confirms that the synthetic API is ready for the Databricks exercise.")
     print(
-        json.dumps(
-            {
-                "base_url": SYNTHETIC_API_BASE_URL,
-                "source_events": SYNTHETIC_SOURCE_ROWS,
-            },
-            indent=2,
-        )
+        f"Synthetic API ready at {SYNTHETIC_API_BASE_URL} "
+        f"({SYNTHETIC_SOURCE_ROWS:,} events)"
     )
 elif __name__ == "__main__":
     run_locally()

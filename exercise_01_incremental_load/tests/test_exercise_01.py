@@ -1,10 +1,13 @@
 from __future__ import annotations
 
 import importlib.util
+import json
 import sqlite3
 import tempfile
+import threading
 import unittest
 from pathlib import Path
+from urllib.request import Request, urlopen
 
 
 EXERCISE_ROOT = Path(__file__).resolve().parents[1]
@@ -34,6 +37,29 @@ class ExerciseOneTests(unittest.TestCase):
             pipeline.overlap_watermark("2026-01-15T10:00:00Z"),
             "2026-01-15T09:55:00Z",
         )
+
+    def test_api_paginates_the_source(self) -> None:
+        events = setup_api.generate_responses(count=5)
+        handler = setup_api.build_handler(events, setup_api.API_TOKEN)
+        server = setup_api.ThreadingHTTPServer(("127.0.0.1", 0), handler)
+        thread = threading.Thread(target=server.serve_forever, daemon=True)
+        thread.start()
+
+        try:
+            host, port = server.server_address
+            request = Request(
+                f"http://{host}:{port}/v1/responses?page=1&page_size=2",
+                headers={"Authorization": f"Bearer {setup_api.API_TOKEN}"},
+            )
+            with urlopen(request, timeout=5) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+
+            self.assertEqual(len(payload["data"]), 2)
+            self.assertEqual(payload["pagination"]["total_records"], 5)
+            self.assertEqual(payload["pagination"]["next_page"], 2)
+        finally:
+            server.shutdown()
+            server.server_close()
 
     def test_validation_quarantines_invalid_score_and_keeps_latest_version(self) -> None:
         base = {

@@ -12,7 +12,6 @@
 
 from __future__ import annotations
 
-import json
 import time
 from datetime import datetime, timedelta, timezone
 
@@ -26,6 +25,8 @@ API_BASE_URL = SYNTHETIC_API_BASE_URL
 API_TOKEN = SYNTHETIC_API_TOKEN
 ENTITY = "responses"
 OVERLAP_MINUTES = 5
+FULL_CUTOFF = "2025-09-30T23:59:59Z"
+INCREMENTAL_CUTOFF = "2026-01-15T23:59:59Z"
 
 # Unqualified names keep the exercise compatible with the user's current catalog and schema.
 BRONZE_TABLE = "cx_ex01_bronze_responses"
@@ -47,13 +48,29 @@ EXERCISE_TABLES = (
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC ## Run mode
+# MAGIC Use **demo** for one-click reproduction. Use **full** and then **incremental** to reproduce two separate scheduled jobs.
+
+# COMMAND ----------
+
+dbutils.widgets.dropdown(
+    "run_mode",
+    "demo",
+    ["demo", "full", "incremental"],
+    "Run mode",
+)
+
+
+# COMMAND ----------
+
+# 1. EXTRACT: WATERMARK, OVERLAP AND PAGINATION ------------------------------
+
 def parse_timestamp(value: str) -> datetime:
-    """Parse an ISO-formatted timestamp and normalize it to UTC."""
     return datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(timezone.utc)
 
 
 def subtract_overlap(watermark: str | None) -> str | None:
-    """Move the watermark back so boundary events can be replayed safely."""
     if watermark is None:
         return None
     adjusted = parse_timestamp(watermark) - timedelta(minutes=OVERLAP_MINUTES)
@@ -61,7 +78,6 @@ def subtract_overlap(watermark: str | None) -> str | None:
 
 
 def request_page(parameters: dict, attempts: int = 3) -> dict:
-    """Request one API page with a small exponential-backoff retry policy."""
     headers = {
         "Authorization": f"Bearer {API_TOKEN}",
         "Accept": "application/json",
@@ -86,7 +102,6 @@ def request_page(parameters: dict, attempts: int = 3) -> dict:
 
 
 def count_available_records(as_of: str) -> int:
-    """Read API metadata for the counterfactual full scan at a cutoff."""
     payload = request_page({"page": 1, "page_size": 1, "as_of": as_of})
     return int(payload["pagination"]["total_records"])
 
@@ -96,7 +111,7 @@ def extract_all_pages(
     previous_watermark: str | None,
     page_size: int = 250,
 ) -> dict:
-    """Extract every page after the overlap-adjusted watermark."""
+    """Follow next_page until the complete incremental window is in memory."""
     query_watermark = subtract_overlap(previous_watermark)
     page = 1
     pages_requested = 0
@@ -136,7 +151,6 @@ def extract_all_pages(
 
 
 def read_watermark() -> str | None:
-    """Read the last successfully committed watermark."""
     if not spark.catalog.tableExists(CONTROL_TABLE):
         return None
     row = (
@@ -149,7 +163,6 @@ def read_watermark() -> str | None:
 
 
 def commit_watermark(watermark: str, run_id: str, as_of: str) -> None:
-    """Commit the watermark only after every preceding pipeline step succeeds."""
     source = spark.createDataFrame(
         [(ENTITY, watermark, run_id, as_of)],
         ["entity", "watermark", "committed_run_id", "as_of"],
@@ -168,15 +181,15 @@ def commit_watermark(watermark: str, run_id: str, as_of: str) -> None:
 
 
 def reset_exercise() -> None:
-    """Drop only the managed tables created by Exercise 1."""
     for table_name in EXERCISE_TABLES:
         spark.sql(f"DROP TABLE IF EXISTS {table_name}")
 
 
 # COMMAND ----------
 
+# 2. VALIDATE AND RESOLVE VERSIONS -------------------------------------------
+
 def validate_and_resolve(bronze_df):
-    """Separate invalid events and retain the newest valid version in the batch."""
     required_fields = (
         "response_id",
         "customer_id",
@@ -223,7 +236,6 @@ def validate_and_resolve(bronze_df):
 
 
 def calculate_upsert_statistics(valid_latest_df) -> dict:
-    """Count inserts, updates and harmless replays before the Delta merge."""
     if not spark.catalog.tableExists(SILVER_TABLE):
         inserted = valid_latest_df.count()
         return {"inserted": inserted, "updated": 0, "replayed_or_unchanged": 0}
@@ -258,9 +270,9 @@ def calculate_upsert_statistics(valid_latest_df) -> dict:
     ).first()
     return {key: int(counts[key] or 0) for key in counts.asDict()}
 
+# 3. MERGE SILVER ------------------------------------------------------------
 
 def merge_silver(valid_latest_df) -> None:
-    """Apply an idempotent Delta upsert using response_id and updated_at."""
     if spark.catalog.tableExists(SILVER_TABLE):
         target = DeltaTable.forName(spark, SILVER_TABLE)
         (
@@ -280,9 +292,9 @@ def merge_silver(valid_latest_df) -> None:
             SILVER_TABLE
         )
 
+# 4. PUBLISH GOLD -------------------------------------------------------------
 
 def publish_gold() -> int:
-    """Publish the analytical fields as a managed Gold Delta table."""
     spark.sql(
         f"""
         CREATE OR REPLACE TABLE {GOLD_TABLE} AS
@@ -304,8 +316,9 @@ def publish_gold() -> int:
 
 # COMMAND ----------
 
+# 5. ORCHESTRATE ONE RUN ------------------------------------------------------
+
 def run_pipeline(as_of: str, reset: bool = False) -> dict:
-    """Execute extraction, validation, Delta load, Gold export and state commit."""
     if reset:
         reset_exercise()
 
@@ -381,61 +394,86 @@ def run_pipeline(as_of: str, reset: bool = False) -> dict:
 
 # COMMAND ----------
 
+# 6. SAVE AND DISPLAY THE COMPARISON -----------------------------------------
+
+def save_comparison_row(report: dict) -> None:
+    row = spark.createDataFrame(
+        [
+            (
+                report["mode"],
+                report["as_of"],
+                report["full_scan_rows_at_cutoff"],
+                report["extracted_rows"],
+                report["rows_avoided_vs_full_scan"],
+                report["read_reduction_pct"],
+                report["analytical_rows"],
+            )
+        ],
+        [
+            "mode",
+            "as_of",
+            "full_scan_rows",
+            "rows_read",
+            "rows_avoided",
+            "read_reduction_pct",
+            "analytical_rows",
+        ],
+    )
+    if spark.catalog.tableExists(COMPARISON_TABLE):
+        target = DeltaTable.forName(spark, COMPARISON_TABLE)
+        (
+            target.alias("target")
+            .merge(
+                row.alias("source"),
+                "target.mode = source.mode AND target.as_of = source.as_of",
+            )
+            .whenMatchedUpdateAll()
+            .whenNotMatchedInsertAll()
+            .execute()
+        )
+    else:
+        row.write.format("delta").mode("overwrite").saveAsTable(COMPARISON_TABLE)
+
+
+def print_run_summary(report: dict) -> None:
+    print(
+        f"{report['mode'].upper()} | cutoff={report['as_of']} | "
+        f"rows_read={report['extracted_rows']:,} | "
+        f"rows_avoided={report['rows_avoided_vs_full_scan']:,} | "
+        f"gold_rows={report['analytical_rows']:,}"
+    )
+
+
+# COMMAND ----------
+
 # MAGIC %md
-# MAGIC ## Demonstration
-# MAGIC The first call reproduces a full historical load. The second advances the source cutoff and uses the committed watermark with a five-minute overlap.
+# MAGIC ## Choose how to run the exercise
+# MAGIC
+# MAGIC - **demo**: runs the historical load and the incremental load in sequence.
+# MAGIC - **full**: runs only the historical load and resets the exercise tables.
+# MAGIC - **incremental**: runs only the later load and reads the watermark committed by a previous **full** run.
 
 # COMMAND ----------
 
-full_run = run_pipeline("2025-09-30T23:59:59Z", reset=True)
+run_mode = dbutils.widgets.get("run_mode")
 
-print("This output summarizes the initial full historical load.")
-print(json.dumps(full_run, indent=2, sort_keys=True))
+if run_mode == "demo":
+    reports = [
+        run_pipeline(FULL_CUTOFF, reset=True),
+        run_pipeline(INCREMENTAL_CUTOFF),
+    ]
+elif run_mode == "full":
+    reports = [run_pipeline(FULL_CUTOFF, reset=True)]
+else:
+    if read_watermark() is None:
+        raise RuntimeError(
+            "No committed watermark was found. Run the notebook in full mode first."
+        )
+    reports = [run_pipeline(INCREMENTAL_CUTOFF)]
 
-# COMMAND ----------
-
-incremental_run = run_pipeline("2026-01-15T23:59:59Z")
-
-print("This output summarizes the subsequent incremental load.")
-print(json.dumps(incremental_run, indent=2, sort_keys=True))
-
-# COMMAND ----------
-
-comparison_rows = [
-    (
-        full_run["mode"],
-        full_run["as_of"],
-        full_run["full_scan_rows_at_cutoff"],
-        full_run["extracted_rows"],
-        full_run["rows_avoided_vs_full_scan"],
-        full_run["read_reduction_pct"],
-        full_run["analytical_rows"],
-    ),
-    (
-        incremental_run["mode"],
-        incremental_run["as_of"],
-        incremental_run["full_scan_rows_at_cutoff"],
-        incremental_run["extracted_rows"],
-        incremental_run["rows_avoided_vs_full_scan"],
-        incremental_run["read_reduction_pct"],
-        incremental_run["analytical_rows"],
-    ),
-]
-comparison_df = spark.createDataFrame(
-    comparison_rows,
-    [
-        "mode",
-        "as_of",
-        "full_scan_rows",
-        "rows_read",
-        "rows_avoided",
-        "read_reduction_pct",
-        "analytical_rows",
-    ],
-)
-comparison_df.write.format("delta").mode("overwrite").saveAsTable(
-    COMPARISON_TABLE
-)
+for current_report in reports:
+    save_comparison_row(current_report)
+    print_run_summary(current_report)
 
 # COMMAND ----------
 
@@ -444,7 +482,7 @@ comparison_df.write.format("delta").mode("overwrite").saveAsTable(
 
 # COMMAND ----------
 
-display(spark.table(COMPARISON_TABLE))
+display(spark.table(COMPARISON_TABLE).orderBy("as_of"))
 
 # COMMAND ----------
 
