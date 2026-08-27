@@ -17,7 +17,7 @@ This exercise starts with one practical question:
 
 A full load is appropriate for the first ingestion and for controlled rebuilds. Repeating it every day, however, wastes requests and processing. An incremental load retrieves only records created or changed since the previous successful run.
 
-The project turns that lesson into a public example with no confidential data, endpoint, credential or business rule.
+The project turns that lesson into a public example.
 
 ---
 
@@ -457,7 +457,13 @@ At the later cutoff, another full load would read 6,365 events. The incremental 
 
 > **The valuable lesson is not simply “incremental is faster.” It is that efficiency is reliable only when pagination, watermarking, overlap, validation and idempotent upserts are designed together.**
 
-![Diagnostic comparison between full and incremental loads](assets/full-vs-incremental-load.png)
+<p align="center">
+  <img src="assets/full-vs-incremental-load.png"
+       alt="Diagnostic comparison between full and incremental loads"
+       width="550">
+  <br>
+  <em>Figure 1 – Author's elaboration.</em>
+</p>
 
 ---
 
