@@ -1,0 +1,1719 @@
+﻿survey_id,response_id,question_id,question_text,value_json,source_version
+survey-demo,B0000,q_wait,Tempo de espera,24,2
+survey-demo,B0001,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0001,q_wait,Tempo de espera,53,1
+survey-demo,B0002,q_wait,Tempo de espera,50,1
+survey-demo,B0003,q_wait,Tempo de espera,17,1
+survey-demo,B0004,q_wait,Tempo de espera,63,1
+survey-demo,B0006,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0006,q_wait,Tempo de espera,10,1
+survey-demo,B0007,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0007,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0007,q_wait,Tempo de espera,27,1
+survey-demo,B0008,q_wait,Tempo de espera,67,2
+survey-demo,B0009,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0009,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0009,q_wait,Tempo de espera,58,1
+survey-demo,B0010,q_wait,Tempo de espera,5,1
+survey-demo,B0011,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0011,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0011,q_wait,Tempo de espera,1,1
+survey-demo,B0013,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0013,q_wait,Tempo de espera,28,1
+survey-demo,B0014,q_wait,Tempo de espera,0,1
+survey-demo,B0015,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0015,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0015,q_wait,Tempo de espera,19,1
+survey-demo,B0016,q_wait,Tempo de espera,90,2
+survey-demo,B0023,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0023,q_wait,Tempo de espera,5,1
+survey-demo,B0024,q_wait,Tempo de espera,64,2
+survey-demo,B0025,q_wait,Tempo de espera,66,1
+survey-demo,B0027,q_wait,Tempo de espera,48,1
+survey-demo,B0028,q_wait,Tempo de espera,64,1
+survey-demo,B0029,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0029,q_wait,Tempo de espera,0,1
+survey-demo,B0030,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0030,q_wait,Tempo de espera,64,1
+survey-demo,B0031,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0031,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0031,q_wait,Tempo de espera,85,1
+survey-demo,B0032,q_wait,Tempo de espera,27,2
+survey-demo,B0033,q_wait,Tempo de espera,62,1
+survey-demo,B0034,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0034,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0034,q_wait,Tempo de espera,58,1
+survey-demo,B0035,q_wait,Tempo de espera,34,1
+survey-demo,B0036,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0036,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0036,q_wait,Tempo de espera,47,1
+survey-demo,B0037,q_wait,Tempo de espera,2,1
+survey-demo,B0038,q_wait,Tempo de espera,55,1
+survey-demo,B0039,q_wait,Tempo de espera,71,1
+survey-demo,B0040,q_wait,Tempo de espera,3,2
+survey-demo,B0041,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0041,q_wait,Tempo de espera,19,1
+survey-demo,B0042,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0042,q_wait,Tempo de espera,64,1
+survey-demo,B0044,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0044,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0044,q_wait,Tempo de espera,58,1
+survey-demo,B0045,q_wait,Tempo de espera,65,1
+survey-demo,B0046,q_wait,Tempo de espera,68,1
+survey-demo,B0047,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0047,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0047,q_wait,Tempo de espera,76,1
+survey-demo,B0048,q_wait,Tempo de espera,72,2
+survey-demo,B0049,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0049,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0049,q_wait,Tempo de espera,40,1
+survey-demo,B0050,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0050,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0050,q_wait,Tempo de espera,48,1
+survey-demo,B0051,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0051,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0051,q_wait,Tempo de espera,25,1
+survey-demo,B0053,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0053,q_wait,Tempo de espera,69,1
+survey-demo,B0054,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0054,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0054,q_wait,Tempo de espera,79,1
+survey-demo,B0055,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0055,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0055,q_wait,Tempo de espera,22,1
+survey-demo,B0056,q_wait,Tempo de espera,68,2
+survey-demo,B0057,q_wait,Tempo de espera,67,1
+survey-demo,B0058,q_wait,Tempo de espera,82,1
+survey-demo,B0059,q_wait,Tempo de espera,12,1
+survey-demo,B0060,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0060,q_wait,Tempo de espera,90,1
+survey-demo,B0061,q_wait,Tempo de espera,51,1
+survey-demo,B0062,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0062,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0062,q_wait,Tempo de espera,11,1
+survey-demo,B0063,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0063,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0063,q_wait,Tempo de espera,10,1
+survey-demo,B0064,q_wait,Tempo de espera,85,2
+survey-demo,B0065,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0065,q_wait,Tempo de espera,11,1
+survey-demo,B0067,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0067,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0067,q_wait,Tempo de espera,16,1
+survey-demo,B0068,q_wait,Tempo de espera,26,1
+survey-demo,B0069,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0069,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0069,q_wait,Tempo de espera,64,1
+survey-demo,B0070,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0070,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0070,q_wait,Tempo de espera,21,1
+survey-demo,B0071,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0071,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0071,q_wait,Tempo de espera,66,1
+survey-demo,B0072,q_wait,Tempo de espera,12,2
+survey-demo,B0073,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0073,q_wait,Tempo de espera,15,1
+survey-demo,B0074,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0074,q_wait,Tempo de espera,0,1
+survey-demo,B0075,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0075,q_wait,Tempo de espera,68,1
+survey-demo,B0078,q_wait,Tempo de espera,12,1
+survey-demo,B0079,q_wait,Tempo de espera,77,1
+survey-demo,B0080,q_wait,Tempo de espera,4,2
+survey-demo,B0081,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0081,q_wait,Tempo de espera,13,1
+survey-demo,B0082,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0082,q_wait,Tempo de espera,36,1
+survey-demo,B0083,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0083,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0083,q_wait,Tempo de espera,72,1
+survey-demo,B0084,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0084,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0084,q_wait,Tempo de espera,25,1
+survey-demo,B0085,q_wait,Tempo de espera,68,1
+survey-demo,B0087,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0087,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0087,q_wait,Tempo de espera,27,1
+survey-demo,B0088,q_wait,Tempo de espera,77,2
+survey-demo,B0090,q_wait,Tempo de espera,84,1
+survey-demo,B0095,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0095,q_wait,Tempo de espera,63,1
+survey-demo,B0096,q_wait,Tempo de espera,22,2
+survey-demo,B0097,q_wait,Tempo de espera,73,1
+survey-demo,B0098,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0098,q_wait,Tempo de espera,88,1
+survey-demo,B0099,q_wait,Tempo de espera,87,1
+survey-demo,B0100,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0100,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0100,q_wait,Tempo de espera,85,1
+survey-demo,B0101,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0101,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0101,q_wait,Tempo de espera,67,1
+survey-demo,B0102,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0102,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0102,q_wait,Tempo de espera,16,1
+survey-demo,B0103,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0103,q_wait,Tempo de espera,76,1
+survey-demo,B0104,q_wait,Tempo de espera,15,2
+survey-demo,B0105,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0105,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0105,q_wait,Tempo de espera,25,1
+survey-demo,B0107,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0107,q_wait,Tempo de espera,18,1
+survey-demo,B0108,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0108,q_wait,Tempo de espera,25,1
+survey-demo,B0109,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0109,q_wait,Tempo de espera,21,1
+survey-demo,B0110,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0110,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0110,q_wait,Tempo de espera,47,1
+survey-demo,B0112,q_wait,Tempo de espera,47,2
+survey-demo,B0115,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0115,q_wait,Tempo de espera,32,1
+survey-demo,B0117,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0117,q_wait,Tempo de espera,10,1
+survey-demo,B0118,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0118,q_wait,Tempo de espera,53,1
+survey-demo,B0119,q_wait,Tempo de espera,16,1
+survey-demo,B0120,q_wait,Tempo de espera,8,2
+survey-demo,B0121,q_wait,Tempo de espera,0,1
+survey-demo,B0122,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0122,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0122,q_wait,Tempo de espera,21,1
+survey-demo,B0123,q_wait,Tempo de espera,13,1
+survey-demo,B0125,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0125,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0125,q_wait,Tempo de espera,20,1
+survey-demo,B0127,q_wait,Tempo de espera,15,1
+survey-demo,B0128,q_wait,Tempo de espera,50,2
+survey-demo,B0129,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0129,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0129,q_wait,Tempo de espera,23,1
+survey-demo,B0132,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0132,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0132,q_wait,Tempo de espera,1,1
+survey-demo,B0133,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0133,q_wait,Tempo de espera,26,1
+survey-demo,B0134,q_wait,Tempo de espera,12,1
+survey-demo,B0135,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0135,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0135,q_wait,Tempo de espera,69,1
+survey-demo,B0136,q_wait,Tempo de espera,50,2
+survey-demo,B0137,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0137,q_wait,Tempo de espera,10,1
+survey-demo,B0138,q_wait,Tempo de espera,22,1
+survey-demo,B0139,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0139,q_wait,Tempo de espera,15,1
+survey-demo,B0140,q_wait,Tempo de espera,67,1
+survey-demo,B0141,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0141,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0141,q_wait,Tempo de espera,7,1
+survey-demo,B0142,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0142,q_wait,Tempo de espera,18,1
+survey-demo,B0143,q_wait,Tempo de espera,53,1
+survey-demo,B0144,q_wait,Tempo de espera,73,2
+survey-demo,B0145,q_wait,Tempo de espera,0,1
+survey-demo,B0146,q_wait,Tempo de espera,88,1
+survey-demo,B0147,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0147,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0147,q_wait,Tempo de espera,75,1
+survey-demo,B0148,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0148,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0148,q_wait,Tempo de espera,33,1
+survey-demo,B0150,q_wait,Tempo de espera,14,1
+survey-demo,B0151,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0151,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0151,q_wait,Tempo de espera,43,1
+survey-demo,B0152,q_wait,Tempo de espera,32,2
+survey-demo,B0153,q_wait,Tempo de espera,11,1
+survey-demo,B0154,q_wait,Tempo de espera,61,1
+survey-demo,B0156,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0156,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0156,q_wait,Tempo de espera,85,1
+survey-demo,B0157,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0157,q_wait,Tempo de espera,88,1
+survey-demo,B0158,q_wait,Tempo de espera,5,1
+survey-demo,B0159,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0159,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0159,q_wait,Tempo de espera,43,1
+survey-demo,B0160,q_wait,Tempo de espera,13,2
+survey-demo,B0161,q_wait,Tempo de espera,66,1
+survey-demo,B0163,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0163,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0163,q_wait,Tempo de espera,40,1
+survey-demo,B0164,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0164,q_wait,Tempo de espera,37,1
+survey-demo,B0166,q_wait,Tempo de espera,28,1
+survey-demo,B0167,q_wait,Tempo de espera,15,1
+survey-demo,B0168,q_wait,Tempo de espera,39,2
+survey-demo,B0169,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0169,q_wait,Tempo de espera,35,1
+survey-demo,B0170,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0170,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0170,q_wait,Tempo de espera,69,1
+survey-demo,B0171,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0171,q_wait,Tempo de espera,32,1
+survey-demo,B0172,q_wait,Tempo de espera,17,1
+survey-demo,B0173,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0173,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0173,q_wait,Tempo de espera,52,1
+survey-demo,B0174,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0174,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0174,q_wait,Tempo de espera,67,1
+survey-demo,B0175,q_wait,Tempo de espera,72,1
+survey-demo,B0176,q_wait,Tempo de espera,79,2
+survey-demo,B0177,q_wait,Tempo de espera,54,1
+survey-demo,B0178,q_wait,Tempo de espera,11,1
+survey-demo,B0182,q_wait,Tempo de espera,16,1
+survey-demo,B0183,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0183,q_wait,Tempo de espera,71,1
+survey-demo,B0184,q_wait,Tempo de espera,72,2
+survey-demo,B0185,q_wait,Tempo de espera,72,1
+survey-demo,B0186,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0186,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0186,q_wait,Tempo de espera,41,1
+survey-demo,B0187,q_wait,Tempo de espera,76,1
+survey-demo,B0188,q_wait,Tempo de espera,50,1
+survey-demo,B0189,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0189,q_wait,Tempo de espera,24,1
+survey-demo,B0192,q_wait,Tempo de espera,90,2
+survey-demo,B0194,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0194,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0194,q_wait,Tempo de espera,21,1
+survey-demo,B0195,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0195,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0195,q_wait,Tempo de espera,11,1
+survey-demo,B0196,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0196,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0196,q_wait,Tempo de espera,51,1
+survey-demo,B0198,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0198,q_wait,Tempo de espera,15,1
+survey-demo,B0199,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0199,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0199,q_wait,Tempo de espera,18,1
+survey-demo,B0200,q_wait,Tempo de espera,42,2
+survey-demo,B0202,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0202,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0202,q_wait,Tempo de espera,49,1
+survey-demo,B0203,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0203,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0203,q_wait,Tempo de espera,24,1
+survey-demo,B0206,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0206,q_wait,Tempo de espera,47,1
+survey-demo,B0207,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0207,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0207,q_wait,Tempo de espera,15,1
+survey-demo,B0208,q_wait,Tempo de espera,52,2
+survey-demo,B0211,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0211,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0211,q_wait,Tempo de espera,16,1
+survey-demo,B0212,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0212,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0212,q_wait,Tempo de espera,81,1
+survey-demo,B0213,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0213,q_wait,Tempo de espera,6,1
+survey-demo,B0214,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0214,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0214,q_wait,Tempo de espera,88,1
+survey-demo,B0215,q_wait,Tempo de espera,3,1
+survey-demo,B0216,q_wait,Tempo de espera,43,2
+survey-demo,B0217,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0217,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0217,q_wait,Tempo de espera,26,1
+survey-demo,B0218,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0218,q_wait,Tempo de espera,18,1
+survey-demo,B0219,q_wait,Tempo de espera,66,1
+survey-demo,B0220,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0220,q_wait,Tempo de espera,87,1
+survey-demo,B0221,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0221,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0221,q_wait,Tempo de espera,0,1
+survey-demo,B0223,q_wait,Tempo de espera,82,1
+survey-demo,B0224,q_wait,Tempo de espera,49,2
+survey-demo,B0225,q_wait,Tempo de espera,84,1
+survey-demo,B0226,q_wait,Tempo de espera,51,1
+survey-demo,B0227,q_wait,Tempo de espera,17,1
+survey-demo,B0228,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0228,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0228,q_wait,Tempo de espera,20,1
+survey-demo,B0230,q_wait,Tempo de espera,59,1
+survey-demo,B0232,q_wait,Tempo de espera,53,2
+survey-demo,B0233,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0233,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0233,q_wait,Tempo de espera,88,1
+survey-demo,B0234,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0234,q_wait,Tempo de espera,55,1
+survey-demo,B0236,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0236,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0236,q_wait,Tempo de espera,11,1
+survey-demo,B0237,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0237,q_wait,Tempo de espera,48,1
+survey-demo,B0238,q_wait,Tempo de espera,5,1
+survey-demo,B0239,q_wait,Tempo de espera,0,1
+survey-demo,B0240,q_wait,Tempo de espera,60,2
+survey-demo,B0241,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0241,q_wait,Tempo de espera,47,1
+survey-demo,B0242,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0242,q_wait,Tempo de espera,13,1
+survey-demo,B0243,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0243,q_wait,Tempo de espera,72,1
+survey-demo,B0244,q_wait,Tempo de espera,71,1
+survey-demo,B0246,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0246,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0246,q_wait,Tempo de espera,8,1
+survey-demo,B0248,q_wait,Tempo de espera,9,2
+survey-demo,B0252,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0252,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0252,q_wait,Tempo de espera,15,1
+survey-demo,B0254,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0254,q_wait,Tempo de espera,11,1
+survey-demo,B0255,q_wait,Tempo de espera,80,1
+survey-demo,B0256,q_wait,Tempo de espera,6,2
+survey-demo,B0258,q_wait,Tempo de espera,72,1
+survey-demo,B0260,q_wait,Tempo de espera,74,1
+survey-demo,B0261,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0261,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0261,q_wait,Tempo de espera,44,1
+survey-demo,B0262,q_wait,Tempo de espera,87,1
+survey-demo,B0264,q_wait,Tempo de espera,61,2
+survey-demo,B0265,q_wait,Tempo de espera,15,1
+survey-demo,B0268,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0268,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0268,q_wait,Tempo de espera,40,1
+survey-demo,B0269,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0269,q_wait,Tempo de espera,66,1
+survey-demo,B0270,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0270,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0270,q_wait,Tempo de espera,67,1
+survey-demo,B0271,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0271,q_wait,Tempo de espera,63,1
+survey-demo,B0272,q_wait,Tempo de espera,26,2
+survey-demo,B0273,q_wait,Tempo de espera,29,1
+survey-demo,B0274,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0274,q_wait,Tempo de espera,29,1
+survey-demo,B0276,q_wait,Tempo de espera,25,1
+survey-demo,B0278,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0278,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0278,q_wait,Tempo de espera,38,1
+survey-demo,B0279,q_wait,Tempo de espera,58,1
+survey-demo,B0280,q_wait,Tempo de espera,26,2
+survey-demo,B0281,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0281,q_wait,Tempo de espera,90,1
+survey-demo,B0283,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0283,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0283,q_wait,Tempo de espera,57,1
+survey-demo,B0284,q_wait,Tempo de espera,77,1
+survey-demo,B0285,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0285,q_wait,Tempo de espera,68,1
+survey-demo,B0286,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0286,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0286,q_wait,Tempo de espera,2,1
+survey-demo,B0287,q_wait,Tempo de espera,6,1
+survey-demo,B0288,q_wait,Tempo de espera,41,2
+survey-demo,B0289,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0289,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0289,q_wait,Tempo de espera,81,1
+survey-demo,B0290,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0290,q_wait,Tempo de espera,43,1
+survey-demo,B0293,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0293,q_wait,Tempo de espera,28,1
+survey-demo,B0295,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0295,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0295,q_wait,Tempo de espera,8,1
+survey-demo,B0296,q_wait,Tempo de espera,72,2
+survey-demo,B0298,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0298,q_wait,Tempo de espera,74,1
+survey-demo,B0299,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0299,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0299,q_wait,Tempo de espera,22,1
+survey-demo,B0300,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0300,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0300,q_wait,Tempo de espera,63,1
+survey-demo,B0301,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0301,q_wait,Tempo de espera,74,1
+survey-demo,B0302,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0302,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0302,q_wait,Tempo de espera,30,1
+survey-demo,B0303,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0303,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0303,q_wait,Tempo de espera,87,1
+survey-demo,B0304,q_wait,Tempo de espera,85,2
+survey-demo,B0305,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0305,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0305,q_wait,Tempo de espera,79,1
+survey-demo,B0306,q_wait,Tempo de espera,30,1
+survey-demo,B0307,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0307,q_wait,Tempo de espera,50,1
+survey-demo,B0308,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0308,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0308,q_wait,Tempo de espera,72,1
+survey-demo,B0309,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0309,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0309,q_wait,Tempo de espera,0,1
+survey-demo,B0310,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0310,q_wait,Tempo de espera,58,1
+survey-demo,B0311,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0311,q_wait,Tempo de espera,7,1
+survey-demo,B0312,q_wait,Tempo de espera,19,2
+survey-demo,B0313,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0313,q_wait,Tempo de espera,34,1
+survey-demo,B0314,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0314,q_wait,Tempo de espera,69,1
+survey-demo,B0315,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0315,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0315,q_wait,Tempo de espera,74,1
+survey-demo,B0316,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0316,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0316,q_wait,Tempo de espera,54,1
+survey-demo,B0317,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0317,q_wait,Tempo de espera,43,1
+survey-demo,B0318,q_wait,Tempo de espera,49,1
+survey-demo,B0319,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0319,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0319,q_wait,Tempo de espera,80,1
+survey-demo,B0320,q_wait,Tempo de espera,59,2
+survey-demo,B0321,q_wait,Tempo de espera,51,1
+survey-demo,B0323,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0323,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0323,q_wait,Tempo de espera,23,1
+survey-demo,B0325,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0325,q_wait,Tempo de espera,26,1
+survey-demo,B0326,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0326,q_wait,Tempo de espera,39,1
+survey-demo,B0327,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0327,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0327,q_wait,Tempo de espera,89,1
+survey-demo,B0328,q_wait,Tempo de espera,71,2
+survey-demo,B0329,q_wait,Tempo de espera,65,1
+survey-demo,B0330,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0330,q_wait,Tempo de espera,58,1
+survey-demo,B0331,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0331,q_wait,Tempo de espera,48,1
+survey-demo,B0332,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0332,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0332,q_wait,Tempo de espera,29,1
+survey-demo,B0333,q_wait,Tempo de espera,21,1
+survey-demo,B0336,q_wait,Tempo de espera,68,2
+survey-demo,B0337,q_wait,Tempo de espera,38,1
+survey-demo,B0339,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0339,q_wait,Tempo de espera,13,1
+survey-demo,B0340,q_wait,Tempo de espera,23,1
+survey-demo,B0342,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0342,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0342,q_wait,Tempo de espera,42,1
+survey-demo,B0343,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0343,q_wait,Tempo de espera,35,1
+survey-demo,B0344,q_wait,Tempo de espera,57,2
+survey-demo,B0345,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0345,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0345,q_wait,Tempo de espera,26,1
+survey-demo,B0346,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0346,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0346,q_wait,Tempo de espera,24,1
+survey-demo,B0347,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0347,q_wait,Tempo de espera,53,1
+survey-demo,B0348,q_wait,Tempo de espera,90,1
+survey-demo,B0350,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0350,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0350,q_wait,Tempo de espera,12,1
+survey-demo,B0351,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0351,q_wait,Tempo de espera,58,1
+survey-demo,B0352,q_wait,Tempo de espera,17,2
+survey-demo,B0353,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0353,q_wait,Tempo de espera,22,1
+survey-demo,B0354,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0354,q_wait,Tempo de espera,86,1
+survey-demo,B0355,q_wait,Tempo de espera,85,1
+survey-demo,B0356,q_wait,Tempo de espera,67,1
+survey-demo,B0358,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0358,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0358,q_wait,Tempo de espera,47,1
+survey-demo,B0359,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0359,q_wait,Tempo de espera,24,1
+survey-demo,B0360,q_wait,Tempo de espera,75,2
+survey-demo,B0362,q_wait,Tempo de espera,34,1
+survey-demo,B0363,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0363,q_wait,Tempo de espera,21,1
+survey-demo,B0364,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0364,q_wait,Tempo de espera,75,1
+survey-demo,B0365,q_wait,Tempo de espera,6,1
+survey-demo,B0366,q_wait,Tempo de espera,2,1
+survey-demo,B0367,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0367,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0367,q_wait,Tempo de espera,22,1
+survey-demo,B0368,q_wait,Tempo de espera,70,2
+survey-demo,B0369,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0369,q_wait,Tempo de espera,46,1
+survey-demo,B0370,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0370,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0370,q_wait,Tempo de espera,12,1
+survey-demo,B0371,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0371,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0371,q_wait,Tempo de espera,25,1
+survey-demo,B0372,q_wait,Tempo de espera,70,1
+survey-demo,B0373,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0373,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0373,q_wait,Tempo de espera,69,1
+survey-demo,B0374,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0374,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0374,q_wait,Tempo de espera,3,1
+survey-demo,B0375,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0375,q_wait,Tempo de espera,28,1
+survey-demo,B0376,q_wait,Tempo de espera,9,2
+survey-demo,B0377,q_wait,Tempo de espera,0,1
+survey-demo,B0378,q_wait,Tempo de espera,27,1
+survey-demo,B0379,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0379,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0379,q_wait,Tempo de espera,74,1
+survey-demo,B0380,q_wait,Tempo de espera,20,1
+survey-demo,B0381,q_wait,Tempo de espera,21,1
+survey-demo,B0383,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0383,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0383,q_wait,Tempo de espera,20,1
+survey-demo,B0384,q_wait,Tempo de espera,45,2
+survey-demo,B0386,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0386,q_wait,Tempo de espera,37,1
+survey-demo,B0387,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0387,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0387,q_wait,Tempo de espera,72,1
+survey-demo,B0388,q_wait,Tempo de espera,49,1
+survey-demo,B0389,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0389,q_wait,Tempo de espera,56,1
+survey-demo,B0391,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0391,q_wait,Tempo de espera,17,1
+survey-demo,B0392,q_wait,Tempo de espera,12,2
+survey-demo,B0393,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0393,q_wait,Tempo de espera,7,1
+survey-demo,B0394,q_wait,Tempo de espera,6,1
+survey-demo,B0396,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0396,q_wait,Tempo de espera,14,1
+survey-demo,B0397,q_wait,Tempo de espera,10,1
+survey-demo,B0398,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0398,q_wait,Tempo de espera,56,1
+survey-demo,B0400,q_wait,Tempo de espera,69,2
+survey-demo,B0401,q_wait,Tempo de espera,13,1
+survey-demo,B0403,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0403,q_wait,Tempo de espera,52,1
+survey-demo,B0404,q_wait,Tempo de espera,25,1
+survey-demo,B0406,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0406,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0406,q_wait,Tempo de espera,44,1
+survey-demo,B0407,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0407,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0407,q_wait,Tempo de espera,4,1
+survey-demo,B0408,q_wait,Tempo de espera,46,2
+survey-demo,B0409,q_wait,Tempo de espera,65,1
+survey-demo,B0410,q_wait,Tempo de espera,87,1
+survey-demo,B0411,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0411,q_wait,Tempo de espera,36,1
+survey-demo,B0412,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0412,q_wait,Tempo de espera,5,1
+survey-demo,B0414,q_wait,Tempo de espera,6,1
+survey-demo,B0415,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0415,q_wait,Tempo de espera,27,1
+survey-demo,B0416,q_wait,Tempo de espera,73,2
+survey-demo,B0417,q_wait,Tempo de espera,33,1
+survey-demo,B0418,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0418,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0418,q_wait,Tempo de espera,17,1
+survey-demo,B0420,q_wait,Tempo de espera,68,1
+survey-demo,B0421,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0421,q_wait,Tempo de espera,41,1
+survey-demo,B0422,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0422,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0422,q_wait,Tempo de espera,25,1
+survey-demo,B0423,q_wait,Tempo de espera,10,1
+survey-demo,B0424,q_wait,Tempo de espera,76,2
+survey-demo,B0425,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0425,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0425,q_wait,Tempo de espera,73,1
+survey-demo,B0427,q_wait,Tempo de espera,6,1
+survey-demo,B0428,q_wait,Tempo de espera,87,1
+survey-demo,B0431,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0431,q_wait,Tempo de espera,62,1
+survey-demo,B0432,q_wait,Tempo de espera,0,2
+survey-demo,B0433,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0433,q_wait,Tempo de espera,19,1
+survey-demo,B0434,q_wait,Tempo de espera,68,1
+survey-demo,B0435,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0435,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0435,q_wait,Tempo de espera,38,1
+survey-demo,B0438,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0438,q_wait,Tempo de espera,80,1
+survey-demo,B0439,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0439,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0439,q_wait,Tempo de espera,46,1
+survey-demo,B0440,q_wait,Tempo de espera,61,2
+survey-demo,B0441,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0441,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0441,q_wait,Tempo de espera,64,1
+survey-demo,B0442,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0442,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0442,q_wait,Tempo de espera,16,1
+survey-demo,B0445,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0445,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0445,q_wait,Tempo de espera,60,1
+survey-demo,B0447,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0447,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0447,q_wait,Tempo de espera,63,1
+survey-demo,B0448,q_wait,Tempo de espera,89,2
+survey-demo,B0449,q_wait,Tempo de espera,14,1
+survey-demo,B0452,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0452,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0452,q_wait,Tempo de espera,77,1
+survey-demo,B0454,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0454,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0454,q_wait,Tempo de espera,25,1
+survey-demo,B0455,q_wait,Tempo de espera,56,1
+survey-demo,B0456,q_wait,Tempo de espera,42,2
+survey-demo,B0457,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0457,q_wait,Tempo de espera,4,1
+survey-demo,B0458,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0458,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0458,q_wait,Tempo de espera,85,1
+survey-demo,B0459,q_wait,Tempo de espera,13,1
+survey-demo,B0460,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0460,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0460,q_wait,Tempo de espera,57,1
+survey-demo,B0461,q_wait,Tempo de espera,38,1
+survey-demo,B0462,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0462,q_wait,Tempo de espera,20,1
+survey-demo,B0463,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0463,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0463,q_wait,Tempo de espera,23,1
+survey-demo,B0464,q_wait,Tempo de espera,58,2
+survey-demo,B0465,q_wait,Tempo de espera,24,1
+survey-demo,B0467,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0467,q_wait,Tempo de espera,61,1
+survey-demo,B0468,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0468,q_wait,Tempo de espera,86,1
+survey-demo,B0469,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0469,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0469,q_wait,Tempo de espera,58,1
+survey-demo,B0472,q_wait,Tempo de espera,59,2
+survey-demo,B0474,q_wait,Tempo de espera,72,1
+survey-demo,B0475,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0475,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0475,q_wait,Tempo de espera,47,1
+survey-demo,B0479,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0479,q_wait,Tempo de espera,73,1
+survey-demo,B0480,q_wait,Tempo de espera,69,2
+survey-demo,B0482,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0482,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0482,q_wait,Tempo de espera,82,1
+survey-demo,B0483,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0483,q_wait,Tempo de espera,14,1
+survey-demo,B0484,q_wait,Tempo de espera,30,1
+survey-demo,B0485,q_wait,Tempo de espera,58,1
+survey-demo,B0487,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0487,q_wait,Tempo de espera,65,1
+survey-demo,B0488,q_wait,Tempo de espera,11,2
+survey-demo,B0489,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0489,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0489,q_wait,Tempo de espera,17,1
+survey-demo,B0490,q_wait,Tempo de espera,47,1
+survey-demo,B0491,q_wait,Tempo de espera,24,1
+survey-demo,B0493,q_wait,Tempo de espera,24,1
+survey-demo,B0494,q_wait,Tempo de espera,80,1
+survey-demo,B0495,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0495,q_wait,Tempo de espera,55,1
+survey-demo,B0496,q_wait,Tempo de espera,41,2
+survey-demo,B0497,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0497,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0497,q_wait,Tempo de espera,35,1
+survey-demo,B0498,q_wait,Tempo de espera,72,1
+survey-demo,B0499,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0499,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0499,q_wait,Tempo de espera,18,1
+survey-demo,B0500,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0500,q_wait,Tempo de espera,74,1
+survey-demo,B0501,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0501,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0501,q_wait,Tempo de espera,20,1
+survey-demo,B0502,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0502,q_wait,Tempo de espera,62,1
+survey-demo,B0504,q_wait,Tempo de espera,39,2
+survey-demo,B0505,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0505,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0505,q_wait,Tempo de espera,65,1
+survey-demo,B0506,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0506,q_wait,Tempo de espera,38,1
+survey-demo,B0508,q_wait,Tempo de espera,7,1
+survey-demo,B0510,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0510,q_wait,Tempo de espera,65,1
+survey-demo,B0511,q_wait,Tempo de espera,9,1
+survey-demo,B0512,q_wait,Tempo de espera,48,2
+survey-demo,B0513,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0513,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0513,q_wait,Tempo de espera,82,1
+survey-demo,B0514,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0514,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0514,q_wait,Tempo de espera,73,1
+survey-demo,B0515,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0515,q_wait,Tempo de espera,90,1
+survey-demo,B0516,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0516,q_wait,Tempo de espera,5,1
+survey-demo,B0517,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0517,q_wait,Tempo de espera,54,1
+survey-demo,B0518,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0518,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0518,q_wait,Tempo de espera,3,1
+survey-demo,B0519,q_wait,Tempo de espera,87,1
+survey-demo,B0520,q_wait,Tempo de espera,39,2
+survey-demo,B0521,q_wait,Tempo de espera,9,1
+survey-demo,B0522,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0522,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0522,q_wait,Tempo de espera,18,1
+survey-demo,B0523,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0523,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0523,q_wait,Tempo de espera,73,1
+survey-demo,B0524,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0524,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0524,q_wait,Tempo de espera,67,1
+survey-demo,B0527,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0527,q_wait,Tempo de espera,24,1
+survey-demo,B0528,q_wait,Tempo de espera,32,2
+survey-demo,B0529,q_wait,Tempo de espera,85,1
+survey-demo,B0530,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0530,q_wait,Tempo de espera,85,1
+survey-demo,B0531,q_wait,Tempo de espera,25,1
+survey-demo,B0532,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0532,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0532,q_wait,Tempo de espera,57,1
+survey-demo,B0534,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0534,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0534,q_wait,Tempo de espera,19,1
+survey-demo,B0535,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0535,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0535,q_wait,Tempo de espera,38,1
+survey-demo,B0536,q_wait,Tempo de espera,18,2
+survey-demo,B0537,q_wait,Tempo de espera,7,1
+survey-demo,B0538,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0538,q_wait,Tempo de espera,38,1
+survey-demo,B0539,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0539,q_wait,Tempo de espera,22,1
+survey-demo,B0540,q_wait,Tempo de espera,49,1
+survey-demo,B0542,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0542,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0542,q_wait,Tempo de espera,40,1
+survey-demo,B0543,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0543,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0543,q_wait,Tempo de espera,63,1
+survey-demo,B0544,q_wait,Tempo de espera,66,2
+survey-demo,B0545,q_wait,Tempo de espera,78,1
+survey-demo,B0548,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0548,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0548,q_wait,Tempo de espera,8,1
+survey-demo,B0549,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0549,q_wait,Tempo de espera,69,1
+survey-demo,B0550,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0550,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0550,q_wait,Tempo de espera,73,1
+survey-demo,B0551,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0551,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0551,q_wait,Tempo de espera,59,1
+survey-demo,B0552,q_wait,Tempo de espera,9,2
+survey-demo,B0555,q_wait,Tempo de espera,49,1
+survey-demo,B0557,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0557,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0557,q_wait,Tempo de espera,44,1
+survey-demo,B0558,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0558,q_wait,Tempo de espera,43,1
+survey-demo,B0560,q_wait,Tempo de espera,68,2
+survey-demo,B0561,q_wait,Tempo de espera,71,1
+survey-demo,B0563,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0563,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0563,q_wait,Tempo de espera,35,1
+survey-demo,B0564,q_wait,Tempo de espera,63,1
+survey-demo,B0565,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0565,q_wait,Tempo de espera,42,1
+survey-demo,B0566,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0566,q_wait,Tempo de espera,81,1
+survey-demo,B0567,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0567,q_wait,Tempo de espera,81,1
+survey-demo,B0568,q_wait,Tempo de espera,66,2
+survey-demo,B0569,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0569,q_wait,Tempo de espera,74,1
+survey-demo,B0570,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0570,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0570,q_wait,Tempo de espera,46,1
+survey-demo,B0572,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0572,q_wait,Tempo de espera,1,1
+survey-demo,B0574,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0574,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0574,q_wait,Tempo de espera,64,1
+survey-demo,B0576,q_wait,Tempo de espera,7,2
+survey-demo,B0577,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0577,q_wait,Tempo de espera,9,1
+survey-demo,B0578,q_wait,Tempo de espera,29,1
+survey-demo,B0580,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0580,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0580,q_wait,Tempo de espera,90,1
+survey-demo,B0582,q_wait,Tempo de espera,11,1
+survey-demo,B0583,q_wait,Tempo de espera,14,1
+survey-demo,B0584,q_wait,Tempo de espera,54,2
+survey-demo,B0585,q_wait,Tempo de espera,64,1
+survey-demo,B0586,q_wait,Tempo de espera,32,1
+survey-demo,B0587,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0587,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0587,q_wait,Tempo de espera,22,1
+survey-demo,B0588,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0588,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0588,q_wait,Tempo de espera,76,1
+survey-demo,B0590,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0590,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0590,q_wait,Tempo de espera,43,1
+survey-demo,B0592,q_wait,Tempo de espera,83,2
+survey-demo,B0593,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0593,q_wait,Tempo de espera,16,1
+survey-demo,B0594,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0594,q_wait,Tempo de espera,67,1
+survey-demo,B0595,q_wait,Tempo de espera,25,1
+survey-demo,B0596,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0596,q_wait,Tempo de espera,58,1
+survey-demo,B0597,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0597,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0597,q_wait,Tempo de espera,49,1
+survey-demo,B0600,q_wait,Tempo de espera,26,2
+survey-demo,B0602,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0602,q_wait,Tempo de espera,2,1
+survey-demo,B0603,q_wait,Tempo de espera,23,1
+survey-demo,B0604,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0604,q_wait,Tempo de espera,88,1
+survey-demo,B0606,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0606,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0606,q_wait,Tempo de espera,29,1
+survey-demo,B0608,q_wait,Tempo de espera,7,2
+survey-demo,B0611,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0611,q_wait,Tempo de espera,19,1
+survey-demo,B0612,q_wait,Tempo de espera,8,1
+survey-demo,B0613,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0613,q_wait,Tempo de espera,85,1
+survey-demo,B0614,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0614,q_wait,Tempo de espera,12,1
+survey-demo,B0616,q_wait,Tempo de espera,33,2
+survey-demo,B0617,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0617,q_wait,Tempo de espera,56,1
+survey-demo,B0618,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0618,q_wait,Tempo de espera,8,1
+survey-demo,B0620,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0620,q_wait,Tempo de espera,55,1
+survey-demo,B0622,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0622,q_wait,Tempo de espera,10,1
+survey-demo,B0624,q_wait,Tempo de espera,0,2
+survey-demo,B0625,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0625,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0625,q_wait,Tempo de espera,86,1
+survey-demo,B0626,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0626,q_wait,Tempo de espera,48,1
+survey-demo,B0627,q_wait,Tempo de espera,73,1
+survey-demo,B0629,q_wait,Tempo de espera,63,1
+survey-demo,B0630,q_wait,Tempo de espera,66,1
+survey-demo,B0631,q_wait,Tempo de espera,0,1
+survey-demo,B0632,q_wait,Tempo de espera,52,2
+survey-demo,B0634,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0634,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0634,q_wait,Tempo de espera,2,1
+survey-demo,B0636,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0636,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0636,q_wait,Tempo de espera,81,1
+survey-demo,B0637,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0637,q_wait,Tempo de espera,17,1
+survey-demo,B0638,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0638,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0638,q_wait,Tempo de espera,32,1
+survey-demo,B0640,q_wait,Tempo de espera,86,2
+survey-demo,B0641,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0641,q_wait,Tempo de espera,67,1
+survey-demo,B0643,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0643,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0643,q_wait,Tempo de espera,20,1
+survey-demo,B0645,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0645,q_wait,Tempo de espera,26,1
+survey-demo,B0646,q_wait,Tempo de espera,74,1
+survey-demo,B0647,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0647,q_wait,Tempo de espera,76,1
+survey-demo,B0648,q_wait,Tempo de espera,47,2
+survey-demo,B0650,q_wait,Tempo de espera,9,1
+survey-demo,B0651,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0651,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0651,q_wait,Tempo de espera,63,1
+survey-demo,B0652,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0652,q_wait,Tempo de espera,14,1
+survey-demo,B0654,q_wait,Tempo de espera,42,1
+survey-demo,B0656,q_wait,Tempo de espera,84,2
+survey-demo,B0657,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0657,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0657,q_wait,Tempo de espera,66,1
+survey-demo,B0659,q_wait,Tempo de espera,79,1
+survey-demo,B0660,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0660,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0660,q_wait,Tempo de espera,73,1
+survey-demo,B0661,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0661,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0661,q_wait,Tempo de espera,19,1
+survey-demo,B0662,q_wait,Tempo de espera,62,1
+survey-demo,B0663,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0663,q_wait,Tempo de espera,72,1
+survey-demo,B0664,q_wait,Tempo de espera,33,2
+survey-demo,B0665,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0665,q_wait,Tempo de espera,25,1
+survey-demo,B0666,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0666,q_wait,Tempo de espera,17,1
+survey-demo,B0667,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0667,q_wait,Tempo de espera,45,1
+survey-demo,B0668,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0668,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0668,q_wait,Tempo de espera,44,1
+survey-demo,B0670,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0670,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0670,q_wait,Tempo de espera,85,1
+survey-demo,B0671,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0671,q_wait,Tempo de espera,25,1
+survey-demo,B0672,q_wait,Tempo de espera,40,2
+survey-demo,B0673,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0673,q_wait,Tempo de espera,33,1
+survey-demo,B0674,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0674,q_wait,Tempo de espera,79,1
+survey-demo,B0675,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0675,q_wait,Tempo de espera,53,1
+survey-demo,B0676,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0676,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0676,q_wait,Tempo de espera,53,1
+survey-demo,B0677,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0677,q_wait,Tempo de espera,83,1
+survey-demo,B0679,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0679,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0679,q_wait,Tempo de espera,72,1
+survey-demo,B0680,q_wait,Tempo de espera,21,2
+survey-demo,B0682,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0682,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0682,q_wait,Tempo de espera,41,1
+survey-demo,B0683,q_wait,Tempo de espera,45,1
+survey-demo,B0684,q_wait,Tempo de espera,46,1
+survey-demo,B0685,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0685,q_wait,Tempo de espera,50,1
+survey-demo,B0687,q_wait,Tempo de espera,18,1
+survey-demo,B0688,q_wait,Tempo de espera,56,2
+survey-demo,B0689,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0689,q_wait,Tempo de espera,55,1
+survey-demo,B0690,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0690,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0690,q_wait,Tempo de espera,76,1
+survey-demo,B0691,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0691,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0691,q_wait,Tempo de espera,62,1
+survey-demo,B0692,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0692,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0692,q_wait,Tempo de espera,69,1
+survey-demo,B0693,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0693,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0693,q_wait,Tempo de espera,84,1
+survey-demo,B0694,q_wait,Tempo de espera,19,1
+survey-demo,B0695,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0695,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0695,q_wait,Tempo de espera,41,1
+survey-demo,B0696,q_wait,Tempo de espera,34,2
+survey-demo,B0697,q_wait,Tempo de espera,75,1
+survey-demo,B0698,q_wait,Tempo de espera,33,1
+survey-demo,B0699,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0699,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0699,q_wait,Tempo de espera,87,1
+survey-demo,B0701,q_wait,Tempo de espera,26,1
+survey-demo,B0703,q_wait,Tempo de espera,22,1
+survey-demo,B0704,q_wait,Tempo de espera,58,2
+survey-demo,B0705,q_wait,Tempo de espera,32,1
+survey-demo,B0706,q_wait,Tempo de espera,86,1
+survey-demo,B0707,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0707,q_wait,Tempo de espera,14,1
+survey-demo,B0708,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0708,q_wait,Tempo de espera,1,1
+survey-demo,B0709,q_wait,Tempo de espera,32,1
+survey-demo,B0710,q_wait,Tempo de espera,90,1
+survey-demo,B0711,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0711,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0711,q_wait,Tempo de espera,24,1
+survey-demo,B0712,q_wait,Tempo de espera,60,2
+survey-demo,B0713,q_wait,Tempo de espera,14,1
+survey-demo,B0715,q_wait,Tempo de espera,66,1
+survey-demo,B0716,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0716,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0716,q_wait,Tempo de espera,44,1
+survey-demo,B0717,q_wait,Tempo de espera,50,1
+survey-demo,B0718,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0718,q_wait,Tempo de espera,35,1
+survey-demo,B0719,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0719,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0719,q_wait,Tempo de espera,49,1
+survey-demo,B0720,q_wait,Tempo de espera,22,2
+survey-demo,B0722,q_wait,Tempo de espera,73,1
+survey-demo,B0724,q_wait,Tempo de espera,9,1
+survey-demo,B0725,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0725,q_wait,Tempo de espera,17,1
+survey-demo,B0727,q_wait,Tempo de espera,35,1
+survey-demo,B0728,q_wait,Tempo de espera,51,2
+survey-demo,B0729,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0729,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0729,q_wait,Tempo de espera,68,1
+survey-demo,B0730,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0730,q_wait,Tempo de espera,77,1
+survey-demo,B0731,q_wait,Tempo de espera,71,1
+survey-demo,B0732,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0732,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0732,q_wait,Tempo de espera,77,1
+survey-demo,B0734,q_wait,Tempo de espera,43,1
+survey-demo,B0736,q_wait,Tempo de espera,77,2
+survey-demo,B0737,q_wait,Tempo de espera,86,1
+survey-demo,B0738,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0738,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0738,q_wait,Tempo de espera,0,1
+survey-demo,B0739,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0739,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0739,q_wait,Tempo de espera,89,1
+survey-demo,B0740,q_wait,Tempo de espera,59,1
+survey-demo,B0741,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0741,q_wait,Tempo de espera,19,1
+survey-demo,B0742,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0742,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0742,q_wait,Tempo de espera,64,1
+survey-demo,B0743,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0743,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0743,q_wait,Tempo de espera,41,1
+survey-demo,B0744,q_wait,Tempo de espera,38,2
+survey-demo,B0745,q_wait,Tempo de espera,71,1
+survey-demo,B0746,q_wait,Tempo de espera,63,1
+survey-demo,B0747,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0747,q_wait,Tempo de espera,15,1
+survey-demo,B0748,q_wait,Tempo de espera,9,1
+survey-demo,B0749,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0749,q_wait,Tempo de espera,84,1
+survey-demo,B0751,q_wait,Tempo de espera,5,1
+survey-demo,B0752,q_wait,Tempo de espera,43,2
+survey-demo,B0754,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0754,q_wait,Tempo de espera,51,1
+survey-demo,B0755,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0755,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0755,q_wait,Tempo de espera,11,1
+survey-demo,B0756,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0756,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0756,q_wait,Tempo de espera,31,1
+survey-demo,B0757,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0757,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0757,q_wait,Tempo de espera,35,1
+survey-demo,B0758,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0758,q_wait,Tempo de espera,67,1
+survey-demo,B0759,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0759,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0759,q_wait,Tempo de espera,76,1
+survey-demo,B0760,q_wait,Tempo de espera,53,2
+survey-demo,B0763,q_wait,Tempo de espera,20,1
+survey-demo,B0764,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0764,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0764,q_wait,Tempo de espera,66,1
+survey-demo,B0765,q_wait,Tempo de espera,16,1
+survey-demo,B0766,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0766,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0766,q_wait,Tempo de espera,72,1
+survey-demo,B0767,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0767,q_wait,Tempo de espera,80,1
+survey-demo,B0768,q_wait,Tempo de espera,21,2
+survey-demo,B0769,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0769,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0769,q_wait,Tempo de espera,9,1
+survey-demo,B0770,q_wait,Tempo de espera,5,1
+survey-demo,B0771,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0771,q_wait,Tempo de espera,89,1
+survey-demo,B0772,q_wait,Tempo de espera,34,1
+survey-demo,B0773,q_wait,Tempo de espera,62,1
+survey-demo,B0774,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0774,q_wait,Tempo de espera,81,1
+survey-demo,B0775,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0775,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0775,q_wait,Tempo de espera,49,1
+survey-demo,B0776,q_wait,Tempo de espera,15,2
+survey-demo,B0778,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0778,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0778,q_wait,Tempo de espera,0,1
+survey-demo,B0779,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0779,q_wait,Tempo de espera,75,1
+survey-demo,B0780,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0780,q_wait,Tempo de espera,26,1
+survey-demo,B0781,q_wait,Tempo de espera,13,1
+survey-demo,B0782,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0782,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0782,q_wait,Tempo de espera,63,1
+survey-demo,B0783,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0783,q_wait,Tempo de espera,36,1
+survey-demo,B0784,q_wait,Tempo de espera,24,2
+survey-demo,B0785,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0785,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0785,q_wait,Tempo de espera,52,1
+survey-demo,B0786,q_wait,Tempo de espera,38,1
+survey-demo,B0787,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0787,q_wait,Tempo de espera,81,1
+survey-demo,B0788,q_wait,Tempo de espera,62,1
+survey-demo,B0789,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0789,q_wait,Tempo de espera,53,1
+survey-demo,B0790,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0790,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0790,q_wait,Tempo de espera,58,1
+survey-demo,B0791,q_wait,Tempo de espera,50,1
+survey-demo,B0792,q_wait,Tempo de espera,12,2
+survey-demo,B0793,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0793,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0793,q_wait,Tempo de espera,66,1
+survey-demo,B0795,q_wait,Tempo de espera,78,1
+survey-demo,B0797,q_wait,Tempo de espera,13,1
+survey-demo,B0798,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0798,q_wait,Tempo de espera,66,1
+survey-demo,B0799,q_wait,Tempo de espera,31,1
+survey-demo,B0800,q_wait,Tempo de espera,85,2
+survey-demo,B0801,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0801,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0801,q_wait,Tempo de espera,57,1
+survey-demo,B0803,q_wait,Tempo de espera,73,1
+survey-demo,B0805,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0805,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0805,q_wait,Tempo de espera,30,1
+survey-demo,B0806,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0806,q_wait,Tempo de espera,78,1
+survey-demo,B0807,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0807,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0807,q_wait,Tempo de espera,66,1
+survey-demo,B0808,q_wait,Tempo de espera,38,2
+survey-demo,B0809,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0809,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0809,q_wait,Tempo de espera,49,1
+survey-demo,B0810,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0810,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0810,q_wait,Tempo de espera,23,1
+survey-demo,B0811,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0811,q_wait,Tempo de espera,57,1
+survey-demo,B0812,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0812,q_wait,Tempo de espera,4,1
+survey-demo,B0814,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0814,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0814,q_wait,Tempo de espera,89,1
+survey-demo,B0815,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0815,q_wait,Tempo de espera,16,1
+survey-demo,B0816,q_wait,Tempo de espera,48,2
+survey-demo,B0819,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0819,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0819,q_wait,Tempo de espera,84,1
+survey-demo,B0820,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0820,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0820,q_wait,Tempo de espera,76,1
+survey-demo,B0821,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0821,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0821,q_wait,Tempo de espera,49,1
+survey-demo,B0822,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0822,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0822,q_wait,Tempo de espera,6,1
+survey-demo,B0823,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0823,q_wait,Tempo de espera,62,1
+survey-demo,B0824,q_wait,Tempo de espera,36,2
+survey-demo,B0825,q_wait,Tempo de espera,54,1
+survey-demo,B0826,q_wait,Tempo de espera,22,1
+survey-demo,B0827,q_wait,Tempo de espera,25,1
+survey-demo,B0828,q_wait,Tempo de espera,22,1
+survey-demo,B0829,q_wait,Tempo de espera,0,1
+survey-demo,B0830,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0830,q_wait,Tempo de espera,33,1
+survey-demo,B0831,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0831,q_wait,Tempo de espera,47,1
+survey-demo,B0832,q_wait,Tempo de espera,6,2
+survey-demo,B0833,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0833,q_wait,Tempo de espera,89,1
+survey-demo,B0834,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0834,q_wait,Tempo de espera,13,1
+survey-demo,B0835,q_wait,Tempo de espera,64,1
+survey-demo,B0836,q_wait,Tempo de espera,1,1
+survey-demo,B0837,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0837,q_wait,Tempo de espera,8,1
+survey-demo,B0838,q_wait,Tempo de espera,35,1
+survey-demo,B0840,q_wait,Tempo de espera,68,2
+survey-demo,B0841,q_wait,Tempo de espera,5,1
+survey-demo,B0843,q_wait,Tempo de espera,44,1
+survey-demo,B0844,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0844,q_wait,Tempo de espera,18,1
+survey-demo,B0845,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0845,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0845,q_wait,Tempo de espera,9,1
+survey-demo,B0846,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0846,q_wait,Tempo de espera,68,1
+survey-demo,B0848,q_wait,Tempo de espera,44,2
+survey-demo,B0849,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0849,q_wait,Tempo de espera,84,1
+survey-demo,B0850,q_wait,Tempo de espera,80,1
+survey-demo,B0851,q_wait,Tempo de espera,11,1
+survey-demo,B0853,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0853,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0853,q_wait,Tempo de espera,81,1
+survey-demo,B0855,q_wait,Tempo de espera,81,1
+survey-demo,B0856,q_wait,Tempo de espera,4,2
+survey-demo,B0857,q_wait,Tempo de espera,61,1
+survey-demo,B0858,q_wait,Tempo de espera,36,1
+survey-demo,B0859,q_wait,Tempo de espera,30,1
+survey-demo,B0860,q_wait,Tempo de espera,38,1
+survey-demo,B0862,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0862,q_wait,Tempo de espera,73,1
+survey-demo,B0864,q_wait,Tempo de espera,2,2
+survey-demo,B0865,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0865,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0865,q_wait,Tempo de espera,63,1
+survey-demo,B0867,q_wait,Tempo de espera,58,1
+survey-demo,B0868,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0868,q_wait,Tempo de espera,26,1
+survey-demo,B0870,q_wait,Tempo de espera,65,1
+survey-demo,B0872,q_wait,Tempo de espera,80,2
+survey-demo,B0874,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0874,q_wait,Tempo de espera,39,1
+survey-demo,B0876,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0876,q_wait,Tempo de espera,28,1
+survey-demo,B0879,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0879,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0879,q_wait,Tempo de espera,10,1
+survey-demo,B0880,q_wait,Tempo de espera,68,2
+survey-demo,B0882,q_wait,Tempo de espera,56,1
+survey-demo,B0885,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0885,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0885,q_wait,Tempo de espera,78,1
+survey-demo,B0888,q_wait,Tempo de espera,0,2
+survey-demo,B0889,q_wait,Tempo de espera,81,1
+survey-demo,B0890,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0890,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0890,q_wait,Tempo de espera,80,1
+survey-demo,B0891,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0891,q_wait,Tempo de espera,53,1
+survey-demo,B0892,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0892,q_wait,Tempo de espera,77,1
+survey-demo,B0893,q_wait,Tempo de espera,66,1
+survey-demo,B0895,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0895,q_wait,Tempo de espera,12,1
+survey-demo,B0896,q_wait,Tempo de espera,18,2
+survey-demo,B0897,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0897,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0897,q_wait,Tempo de espera,79,1
+survey-demo,B0899,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0899,q_wait,Tempo de espera,34,1
+survey-demo,B0900,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0900,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0900,q_wait,Tempo de espera,62,1
+survey-demo,B0901,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0901,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0901,q_wait,Tempo de espera,73,1
+survey-demo,B0903,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0903,q_wait,Tempo de espera,87,1
+survey-demo,B0904,q_wait,Tempo de espera,54,2
+survey-demo,B0905,q_wait,Tempo de espera,41,1
+survey-demo,B0906,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0906,q_wait,Tempo de espera,20,1
+survey-demo,B0908,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0908,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0908,q_wait,Tempo de espera,63,1
+survey-demo,B0909,q_wait,Tempo de espera,32,1
+survey-demo,B0910,q_wait,Tempo de espera,0,1
+survey-demo,B0911,q_wait,Tempo de espera,67,1
+survey-demo,B0912,q_wait,Tempo de espera,40,2
+survey-demo,B0913,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0913,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0913,q_wait,Tempo de espera,20,1
+survey-demo,B0914,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0914,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0914,q_wait,Tempo de espera,42,1
+survey-demo,B0916,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0916,q_wait,Tempo de espera,70,1
+survey-demo,B0917,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0917,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0917,q_wait,Tempo de espera,0,1
+survey-demo,B0919,q_wait,Tempo de espera,13,1
+survey-demo,B0920,q_wait,Tempo de espera,88,2
+survey-demo,B0921,q_wait,Tempo de espera,88,1
+survey-demo,B0923,q_wait,Tempo de espera,54,1
+survey-demo,B0925,q_wait,Tempo de espera,63,1
+survey-demo,B0926,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0926,q_wait,Tempo de espera,49,1
+survey-demo,B0927,q_wait,Tempo de espera,58,1
+survey-demo,B0928,q_wait,Tempo de espera,25,2
+survey-demo,B0929,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0929,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0929,q_wait,Tempo de espera,73,1
+survey-demo,B0930,q_wait,Tempo de espera,63,1
+survey-demo,B0933,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0933,q_wait,Tempo de espera,45,1
+survey-demo,B0934,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0934,q_wait,Tempo de espera,61,1
+survey-demo,B0936,q_wait,Tempo de espera,71,2
+survey-demo,B0937,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0937,q_wait,Tempo de espera,34,1
+survey-demo,B0942,q_wait,Tempo de espera,74,1
+survey-demo,B0944,q_wait,Tempo de espera,75,2
+survey-demo,B0945,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0945,q_wait,Tempo de espera,76,1
+survey-demo,B0946,q_wait,Tempo de espera,53,1
+survey-demo,B0947,q_wait,Tempo de espera,22,1
+survey-demo,B0949,q_wait,Tempo de espera,66,1
+survey-demo,B0951,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0951,q_wait,Tempo de espera,89,1
+survey-demo,B0952,q_wait,Tempo de espera,37,2
+survey-demo,B0955,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0955,q_wait,Tempo de espera,8,1
+survey-demo,B0957,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0957,q_wait,Tempo de espera,69,1
+survey-demo,B0959,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0959,q_wait,Tempo de espera,87,1
+survey-demo,B0960,q_wait,Tempo de espera,63,2
+survey-demo,B0961,q_wait,Tempo de espera,19,1
+survey-demo,B0962,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0962,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0962,q_wait,Tempo de espera,37,1
+survey-demo,B0963,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0963,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0963,q_wait,Tempo de espera,73,1
+survey-demo,B0964,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0964,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0964,q_wait,Tempo de espera,85,1
+survey-demo,B0966,q_wait,Tempo de espera,18,1
+survey-demo,B0967,q_wait,Tempo de espera,34,1
+survey-demo,B0968,q_wait,Tempo de espera,53,2
+survey-demo,B0969,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0969,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0969,q_wait,Tempo de espera,46,1
+survey-demo,B0971,q_wait,Tempo de espera,13,1
+survey-demo,B0972,q_wait,Tempo de espera,88,1
+survey-demo,B0973,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0973,q_wait,Tempo de espera,50,1
+survey-demo,B0974,q_wait,Tempo de espera,2,1
+survey-demo,B0975,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0975,q_wait,Tempo de espera,67,1
+survey-demo,B0976,q_wait,Tempo de espera,25,2
+survey-demo,B0977,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0977,q_wait,Tempo de espera,43,1
+survey-demo,B0979,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0979,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0979,q_wait,Tempo de espera,73,1
+survey-demo,B0980,q_wait,Tempo de espera,74,1
+survey-demo,B0981,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0981,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0981,q_wait,Tempo de espera,58,1
+survey-demo,B0984,q_wait,Tempo de espera,28,2
+survey-demo,B0986,q_wait,Tempo de espera,63,1
+survey-demo,B0987,q_wait,Tempo de espera,14,1
+survey-demo,B0988,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0988,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B0988,q_wait,Tempo de espera,63,1
+survey-demo,B0989,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0989,q_wait,Tempo de espera,44,1
+survey-demo,B0992,q_wait,Tempo de espera,28,2
+survey-demo,B0993,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0993,q_wait,Tempo de espera,67,1
+survey-demo,B0994,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0994,q_wait,Tempo de espera,28,1
+survey-demo,B0995,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0995,q_wait,Tempo de espera,64,1
+survey-demo,B0996,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0996,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0996,q_wait,Tempo de espera,9,1
+survey-demo,B0997,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0997,q_wait,Tempo de espera,25,1
+survey-demo,B0999,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B0999,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B0999,q_wait,Tempo de espera,28,1
+survey-demo,B1000,q_wait,Tempo de espera,30,2
+survey-demo,B1001,q_wait,Tempo de espera,24,1
+survey-demo,B1002,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1002,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1002,q_wait,Tempo de espera,81,1
+survey-demo,B1004,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1004,q_wait,Tempo de espera,6,1
+survey-demo,B1006,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1006,q_wait,Tempo de espera,46,1
+survey-demo,B1007,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1007,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1007,q_wait,Tempo de espera,25,1
+survey-demo,B1008,q_wait,Tempo de espera,90,2
+survey-demo,B1010,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1010,q_wait,Tempo de espera,12,1
+survey-demo,B1011,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1011,q_wait,Tempo de espera,88,1
+survey-demo,B1013,q_wait,Tempo de espera,33,1
+survey-demo,B1014,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1014,q_wait,Tempo de espera,42,1
+survey-demo,B1016,q_wait,Tempo de espera,27,2
+survey-demo,B1017,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1017,q_wait,Tempo de espera,80,1
+survey-demo,B1018,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1018,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1018,q_wait,Tempo de espera,58,1
+survey-demo,B1019,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1019,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1019,q_wait,Tempo de espera,25,1
+survey-demo,B1020,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1020,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1020,q_wait,Tempo de espera,80,1
+survey-demo,B1023,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1023,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1023,q_wait,Tempo de espera,66,1
+survey-demo,B1024,q_wait,Tempo de espera,28,2
+survey-demo,B1025,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1025,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1025,q_wait,Tempo de espera,32,1
+survey-demo,B1027,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1027,q_wait,Tempo de espera,69,1
+survey-demo,B1028,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1028,q_wait,Tempo de espera,22,1
+survey-demo,B1029,q_wait,Tempo de espera,49,1
+survey-demo,B1030,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1030,q_wait,Tempo de espera,75,1
+survey-demo,B1031,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1031,q_wait,Tempo de espera,73,1
+survey-demo,B1032,q_wait,Tempo de espera,37,2
+survey-demo,B1033,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1033,q_wait,Tempo de espera,75,1
+survey-demo,B1034,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1034,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1034,q_wait,Tempo de espera,11,1
+survey-demo,B1035,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1035,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1035,q_wait,Tempo de espera,19,1
+survey-demo,B1036,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1036,q_wait,Tempo de espera,47,1
+survey-demo,B1037,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1037,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1037,q_wait,Tempo de espera,62,1
+survey-demo,B1040,q_wait,Tempo de espera,56,2
+survey-demo,B1041,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1041,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1041,q_wait,Tempo de espera,10,1
+survey-demo,B1043,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1043,q_wait,Tempo de espera,41,1
+survey-demo,B1045,q_wait,Tempo de espera,9,1
+survey-demo,B1046,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1046,q_wait,Tempo de espera,26,1
+survey-demo,B1047,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1047,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1047,q_wait,Tempo de espera,37,1
+survey-demo,B1048,q_wait,Tempo de espera,34,2
+survey-demo,B1049,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1049,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1049,q_wait,Tempo de espera,77,1
+survey-demo,B1050,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1050,q_wait,Tempo de espera,57,1
+survey-demo,B1053,q_wait,Tempo de espera,68,1
+survey-demo,B1054,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1054,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1054,q_wait,Tempo de espera,81,1
+survey-demo,B1056,q_wait,Tempo de espera,63,2
+survey-demo,B1058,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1058,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1058,q_wait,Tempo de espera,88,1
+survey-demo,B1059,q_wait,Tempo de espera,59,1
+survey-demo,B1060,q_wait,Tempo de espera,61,1
+survey-demo,B1061,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1061,q_wait,Tempo de espera,89,1
+survey-demo,B1062,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1062,q_wait,Tempo de espera,57,1
+survey-demo,B1063,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1063,q_wait,Tempo de espera,89,1
+survey-demo,B1064,q_wait,Tempo de espera,78,2
+survey-demo,B1066,q_wait,Tempo de espera,58,1
+survey-demo,B1067,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1067,q_wait,Tempo de espera,15,1
+survey-demo,B1069,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1069,q_wait,Tempo de espera,72,1
+survey-demo,B1071,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1071,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1071,q_wait,Tempo de espera,78,1
+survey-demo,B1072,q_wait,Tempo de espera,76,2
+survey-demo,B1073,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1073,q_wait,Tempo de espera,60,1
+survey-demo,B1074,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1074,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1074,q_wait,Tempo de espera,20,1
+survey-demo,B1076,q_wait,Tempo de espera,4,1
+survey-demo,B1077,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1077,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1077,q_wait,Tempo de espera,9,1
+survey-demo,B1080,q_wait,Tempo de espera,2,2
+survey-demo,B1081,q_wait,Tempo de espera,17,1
+survey-demo,B1082,q_wait,Tempo de espera,46,1
+survey-demo,B1083,q_wait,Tempo de espera,36,1
+survey-demo,B1084,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1084,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1084,q_wait,Tempo de espera,61,1
+survey-demo,B1085,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1085,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1085,q_wait,Tempo de espera,22,1
+survey-demo,B1086,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1086,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1086,q_wait,Tempo de espera,7,1
+survey-demo,B1087,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1087,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1087,q_wait,Tempo de espera,71,1
+survey-demo,B1088,q_wait,Tempo de espera,42,2
+survey-demo,B1090,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1090,q_wait,Tempo de espera,64,1
+survey-demo,B1091,q_wait,Tempo de espera,81,1
+survey-demo,B1092,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1092,q_wait,Tempo de espera,81,1
+survey-demo,B1094,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1094,q_wait,Tempo de espera,42,1
+survey-demo,B1096,q_wait,Tempo de espera,65,2
+survey-demo,B1097,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1097,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1097,q_wait,Tempo de espera,65,1
+survey-demo,B1101,q_wait,Tempo de espera,37,1
+survey-demo,B1103,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1103,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1103,q_wait,Tempo de espera,16,1
+survey-demo,B1104,q_wait,Tempo de espera,56,2
+survey-demo,B1105,q_wait,Tempo de espera,64,1
+survey-demo,B1106,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1106,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1106,q_wait,Tempo de espera,87,1
+survey-demo,B1109,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1109,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1109,q_wait,Tempo de espera,59,1
+survey-demo,B1110,q_wait,Tempo de espera,89,1
+survey-demo,B1111,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1111,q_wait,Tempo de espera,6,1
+survey-demo,B1112,q_wait,Tempo de espera,62,2
+survey-demo,B1114,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1114,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1114,q_wait,Tempo de espera,79,1
+survey-demo,B1115,q_wait,Tempo de espera,28,1
+survey-demo,B1116,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1116,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1116,q_wait,Tempo de espera,58,1
+survey-demo,B1118,q_wait,Tempo de espera,12,1
+survey-demo,B1119,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1119,q_wait,Tempo de espera,3,1
+survey-demo,B1120,q_wait,Tempo de espera,16,2
+survey-demo,B1121,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1121,q_wait,Tempo de espera,48,1
+survey-demo,B1122,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1122,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1122,q_wait,Tempo de espera,26,1
+survey-demo,B1123,q_wait,Tempo de espera,20,1
+survey-demo,B1124,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1124,q_wait,Tempo de espera,65,1
+survey-demo,B1125,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1125,q_wait,Tempo de espera,66,1
+survey-demo,B1126,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1126,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1126,q_wait,Tempo de espera,42,1
+survey-demo,B1127,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1127,q_wait,Tempo de espera,51,1
+survey-demo,B1128,q_wait,Tempo de espera,46,2
+survey-demo,B1129,q_wait,Tempo de espera,81,1
+survey-demo,B1130,q_wait,Tempo de espera,86,1
+survey-demo,B1134,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1134,q_wait,Tempo de espera,65,1
+survey-demo,B1136,q_wait,Tempo de espera,3,2
+survey-demo,B1137,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1137,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1137,q_wait,Tempo de espera,75,1
+survey-demo,B1138,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1138,q_wait,Tempo de espera,13,1
+survey-demo,B1139,q_wait,Tempo de espera,59,1
+survey-demo,B1140,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1140,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1140,q_wait,Tempo de espera,64,1
+survey-demo,B1141,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1141,q_wait,Tempo de espera,1,1
+survey-demo,B1142,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1142,q_wait,Tempo de espera,50,1
+survey-demo,B1143,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1143,q_wait,Tempo de espera,31,1
+survey-demo,B1144,q_wait,Tempo de espera,33,2
+survey-demo,B1145,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1145,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1145,q_wait,Tempo de espera,22,1
+survey-demo,B1146,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1146,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1146,q_wait,Tempo de espera,63,1
+survey-demo,B1147,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1147,q_wait,Tempo de espera,45,1
+survey-demo,B1149,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1149,q_wait,Tempo de espera,80,1
+survey-demo,B1151,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1151,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1151,q_wait,Tempo de espera,13,1
+survey-demo,B1152,q_wait,Tempo de espera,85,2
+survey-demo,B1154,q_wait,Tempo de espera,80,1
+survey-demo,B1156,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1156,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1156,q_wait,Tempo de espera,52,1
+survey-demo,B1157,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1157,q_wait,Tempo de espera,67,1
+survey-demo,B1159,q_wait,Tempo de espera,55,1
+survey-demo,B1160,q_wait,Tempo de espera,11,2
+survey-demo,B1161,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1161,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1161,q_wait,Tempo de espera,85,1
+survey-demo,B1163,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1163,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1163,q_wait,Tempo de espera,8,1
+survey-demo,B1164,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1164,q_wait,Tempo de espera,89,1
+survey-demo,B1166,q_wait,Tempo de espera,18,1
+survey-demo,B1167,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1167,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1167,q_wait,Tempo de espera,1,1
+survey-demo,B1168,q_wait,Tempo de espera,3,2
+survey-demo,B1170,q_wait,Tempo de espera,30,1
+survey-demo,B1171,q_wait,Tempo de espera,76,1
+survey-demo,B1173,q_wait,Tempo de espera,73,1
+survey-demo,B1174,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1174,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1174,q_wait,Tempo de espera,54,1
+survey-demo,B1176,q_wait,Tempo de espera,77,2
+survey-demo,B1178,q_wait,Tempo de espera,49,1
+survey-demo,B1179,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1179,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1179,q_wait,Tempo de espera,15,1
+survey-demo,B1180,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1180,q_wait,Tempo de espera,52,1
+survey-demo,B1182,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1182,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1182,q_wait,Tempo de espera,24,1
+survey-demo,B1183,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,B1183,q_wait,Tempo de espera,77,1
+survey-demo,B1184,q_wait,Tempo de espera,15,2
+survey-demo,B1185,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1185,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1185,q_wait,Tempo de espera,16,1
+survey-demo,B1186,q_wait,Tempo de espera,65,1
+survey-demo,B1188,q_wait,Tempo de espera,32,1
+survey-demo,B1189,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1189,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1189,q_wait,Tempo de espera,57,1
+survey-demo,B1190,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1190,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1190,q_wait,Tempo de espera,6,1
+survey-demo,B1192,q_wait,Tempo de espera,15,2
+survey-demo,B1193,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1193,q_wait,Tempo de espera,86,1
+survey-demo,B1194,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1194,q_wait,Tempo de espera,43,1
+survey-demo,B1195,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1195,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1195,q_wait,Tempo de espera,63,1
+survey-demo,B1196,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,B1196,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1196,q_wait,Tempo de espera,19,1
+survey-demo,B1197,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1197,q_wait,Tempo de espera,50,1
+survey-demo,B1199,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,B1199,q_wait,Tempo de espera,56,1
+survey-demo,R001,q_resolution,Problema resolvido?,"""Não""",1
+survey-demo,R001,q_wait,Tempo de espera,40,1
+survey-demo,R002,q_resolution,Problema resolvido?,"""Sim""",1
+survey-demo,R004,q_wait,Tempo de espera,5,2
+survey-demo,R005,q_wait,Tempo de espera,0,1
+survey-demo,R006,q_channels,Canais utilizados,"[""App"",""Telefone""]",1
+survey-demo,R006,q_detail,Detalhe,"{""contact"":{""channel"":""App""},""resolved"":true}",1
+survey-demo,R007,q_wait,Tempo de espera,1,1
+survey-demo,R007,q_wait_alt,Tempo-de-espera,2,1
+survey-demo,R013,q_new,Nova pergunta,,1
+survey-demo,R014,q_detail,Detalhe,"[{""option"":""App"",""subOptions"":[""Chat"",""Formulário""]},{""option"":""Telefone"",""subOptions"":[]}]",1

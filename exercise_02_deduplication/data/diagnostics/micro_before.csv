@@ -1,0 +1,9 @@
+﻿survey_id,response_id,metric,score,category,subcategory,question_id
+survey-demo,R001,NPS,3,Atendimento,Demora,q_resolution
+survey-demo,R001,NPS,3,Atendimento,Demora,q_wait
+survey-demo,R001,NPS,3,Comunicação,Retorno,q_resolution
+survey-demo,R001,NPS,3,Comunicação,Retorno,q_wait
+survey-demo,R001,NPS,3,Processo,Agendamento,q_resolution
+survey-demo,R001,NPS,3,Processo,Agendamento,q_wait
+survey-demo,R002,NPS,10,Atendimento,Cordialidade,q_resolution
+survey-demo,R003,NPS,10,,,

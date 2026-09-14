@@ -1,0 +1,60 @@
+{
+  "bronze_receipts": 1525,
+  "receipt_statuses": {
+    "deleted_current": 1,
+    "quarantined": 31,
+    "repeated_snapshot": 125,
+    "selected_current": 1215,
+    "superseded_version": 153
+  },
+  "quarantine_reasons": {
+    "conflicting_question_in_snapshot": 1,
+    "empty_question_label": 1,
+    "event_id_payload_conflict": 2,
+    "invalid_identifier": 1,
+    "invalid_timestamp": 1,
+    "missing_snapshot_children": 1,
+    "response_version_conflict": 2,
+    "score_out_of_range": 22
+  },
+  "table_rows": {
+    "responses": 1215,
+    "response_categories": 2490,
+    "question_answers": 1718,
+    "responses_wide": 1215
+  },
+  "correct_metrics": {
+    "rows": 1215,
+    "nps_responses": 812,
+    "nps": -39.162562,
+    "csat_responses": 403,
+    "csat_top2_pct": 39.702233
+  },
+  "wrong_metrics_latest_join_only": {
+    "rows": 4479,
+    "nps_responses": 2962,
+    "nps": -63.774477,
+    "csat_responses": 1517,
+    "csat_top2_pct": 21.555702
+  },
+  "micro_correct": {
+    "rows": 3,
+    "nps_responses": 3,
+    "nps": 33.333333,
+    "csat_responses": 0,
+    "csat_top2_pct": null
+  },
+  "micro_wrong": {
+    "rows": 8,
+    "nps_responses": 8,
+    "nps": -50.0,
+    "csat_responses": 0,
+    "csat_top2_pct": null
+  },
+  "business_output_sha256": "8eef593d0bc85880d2da4de07c4a0edfe137da3c9715a6d10ec58f4205631b02",
+  "invariants": {
+    "audit_accounts_for_all_receipts": true,
+    "wide_equals_response_count": true,
+    "keys_and_foreign_keys": "enforced by SQLite"
+  }
+}
