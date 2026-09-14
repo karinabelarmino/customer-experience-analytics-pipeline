@@ -11,13 +11,12 @@ The repository will be released as a sequence of exercises.
 |                     Exercise                     | Scope                                             | Main output                                          |    Status    |
 | :----------------------------------------------: | ------------------------------------------------- | ---------------------------------------------------- | :----------: |
 | [**01**](exercise_01_incremental_load/README.md) | Full load versus incremental API load             | Validated and incrementally updated analytical table | **Released** |
-|                      **02**                      | Response grain, repeated events and deduplication | Documented grain and version-resolution rules        |    Planned   |
+| [**02**](exercise_02_deduplication/README.md) | Response grain, repeated events and deduplication | Response fact, category bridge, question table and validated pivot | Released |
 |                      **03**                      | NPS and CSAT across the customer journey          | Reproducible customer-experience indicators          |    Planned   |
 |                      **04**                      | Claims ratio and outlier treatment                | Robust analytical comparison                         |    Planned   |
 |                      **05**                      | Analytical model for Power BI                     | Dashboard-ready Gold layer                           |    Planned   |
 
-
-### How the data were obtained and validated
+### Exercise 01: how the data were obtained and validated
 
 The repository separates the source simulation from the analytical exercise:
 
@@ -28,6 +27,12 @@ The repository separates the source simulation from the analytical exercise:
 The synthetic source contains 6,000 unique responses, 352 later revisions and 25 intentionally invalid events. The values represent four fictional journey stages and use valid NPS and CSAT scales except for the records deliberately created for quarantine testing. The fixed seed makes every run reproducible.
 
 Validation checks required fields, NPS scores from 0 to 10 and CSAT scores from 1 to 5. Invalid events are quarantined. Among valid events, only the most recent version of each `response_id` is sent to the analytical upsert.
+
+### Exercise 02 review candidate
+
+Exercise 02 recreates the multiplication of response rows caused by joining classifications and additional questions. Its synthetic delivery fixture contains 1,525 receipts. The final model preserves 1,215 active responses, 2,490 classification associations and 1,718 additional-question answers. The exercise distinguishes repeated snapshots, revisions and conflicts and includes a wide output derived from the normalized tables.
+
+Exercises 03–05 remain Planned.
 
 ### Limitations
 
