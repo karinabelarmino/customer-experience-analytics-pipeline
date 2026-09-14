@@ -1,13 +1,19 @@
 # Exercise 02 · Response grain, repeated events and deduplication
 
-> Review candidate. Prepared for validation; no GitHub release has been created.
+> About a few surprises after the completed pipeline...
 
 An API-derived CX table can contain the same survey score on several rows because each response
 has several classifications and additional questions. Counting those rows as independent answers
 changes the metric. This exercise reproduces that pattern with fully synthetic data and separates
 join fan-out, repeated deliveries, legitimate revisions and conflicting versions.
 
-![Illustrative Databricks-style result grid with one response ID and score repeated across six rows](assets/response-grain-en.png)
+<p align="center">
+  <img src="assets/response-grain-en.png"
+       alt="Repeated events and deduplication"
+       width="550">
+  <br>
+  <em>Figure 1 – Author's elaboration.</em>
+</p>
 
 ## 1. The practical problem
 
@@ -231,5 +237,4 @@ Companion modules use [Databricks Workspace Python files](https://docs.databrick
 The conceptual relationship to Exercise 01 is documented in its
 [published README](https://github.com/karinabelarmino/customer-experience-analytics-pipeline/blob/main/exercise_01_incremental_load/README.md).
 
-All public code was written for this exercise. The original private notebooks and their connection
-configuration are not distributed. The repository roadmap remains unchanged pending review.
+All public code was written for this exercise. 
