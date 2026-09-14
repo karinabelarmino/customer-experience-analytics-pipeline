@@ -1,0 +1,24 @@
+{
+  "spark_version": "3.5.9",
+  "tables": {
+    "responses": {
+      "rows": 1215,
+      "matches_reference": true
+    },
+    "response_categories": {
+      "rows": 2490,
+      "matches_reference": true
+    },
+    "question_answers": {
+      "rows": 1718,
+      "matches_reference": true
+    },
+    "responses_wide": {
+      "rows": 1215,
+      "matches_reference": true
+    }
+  },
+  "audit_matches_reference": true,
+  "quarantine_matches_reference": true,
+  "managed_delta_execution": "Not executed; validate notebook in Databricks."
+}

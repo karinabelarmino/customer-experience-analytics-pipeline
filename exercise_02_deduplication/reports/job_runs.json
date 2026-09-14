@@ -1,0 +1,23 @@
+[
+  {
+    "step": "initial",
+    "delivered_receipts": 1224,
+    "retained_bronze_receipts": 1224,
+    "active_responses": 1217,
+    "business_output_sha256": "1a839746fa7aa47f3380610ebda253f678774347ae3ebad42c1d01a481ff3745"
+  },
+  {
+    "step": "incremental",
+    "delivered_receipts": 301,
+    "retained_bronze_receipts": 1525,
+    "active_responses": 1215,
+    "business_output_sha256": "8eef593d0bc85880d2da4de07c4a0edfe137da3c9715a6d10ec58f4205631b02"
+  },
+  {
+    "step": "replay_job",
+    "delivered_receipts": 301,
+    "retained_bronze_receipts": 1525,
+    "active_responses": 1215,
+    "business_output_sha256": "8eef593d0bc85880d2da4de07c4a0edfe137da3c9715a6d10ec58f4205631b02"
+  }
+]
